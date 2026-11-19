@@ -1,0 +1,116 @@
+generator client {
+  provider = "prisma-client-js"
+}
+
+datasource db {
+  provider = "postgresql"
+}
+
+model Course {
+  id          String       @id
+  name        String
+  code        String       @unique
+  level       String
+  classGroups ClassGroup[]
+  subjects    Subject[]
+
+  @@map("courses")
+}
+
+model ClassGroup {
+  id             String         @id
+  courseId       String         @map("course_id")
+  name           String
+  semesterPeriod String         @map("semester_period")
+  shift          String
+  academicTerm   String         @map("academic_term")
+  course         Course         @relation(fields: [courseId], references: [id], onDelete: Restrict)
+  scheduleSlots  ScheduleSlot[]
+
+  @@unique([courseId, name, academicTerm])
+  @@index([courseId, shift])
+  @@map("class_groups")
+}
+
+model Subject {
+  id            String         @id
+  courseId      String         @map("course_id")
+  name          String
+  code          String
+  workloadHours Int?           @map("workload_hours")
+  course        Course         @relation(fields: [courseId], references: [id], onDelete: Restrict)
+  scheduleSlots ScheduleSlot[]
+
+  @@unique([courseId, name])
+  @@index([code])
+  @@map("subjects")
+}
+
+model Professor {
+  id            String         @id
+  fullName      String         @map("full_name")
+  siape         String?        @unique
+  email         String?        @unique
+  active        Boolean        @default(true)
+  scheduleSlots ScheduleSlot[]
+
+  @@index([fullName])
+  @@map("professors")
+}
+
+model Room {
+  id            String         @id
+  name          String         @unique
+  block         String?
+  type          String?
+  capacity      Int?
+  scheduleSlots ScheduleSlot[]
+
+  @@map("rooms")
+}
+
+model TimeBlock {
+  id            String         @id
+  shift         String
+  orderIndex    Int            @map("order_index")
+  startTime     String         @map("start_time")
+  endTime       String         @map("end_time")
+  scheduleSlots ScheduleSlot[]
+
+  @@unique([shift, orderIndex])
+  @@unique([shift, startTime, endTime])
+  @@map("time_blocks")
+}
+
+model ScheduleSlot {
+  id           String     @id
+  dayOfWeek    Int        @map("day_of_week")
+  classGroupId String     @map("class_group_id")
+  subjectId    String     @map("subject_id")
+  professorId  String?    @map("professor_id")
+  roomId       String?    @map("room_id")
+  timeBlockId  String     @map("time_block_id")
+  classGroup   ClassGroup @relation(fields: [classGroupId], references: [id], onDelete: Restrict)
+  subject      Subject    @relation(fields: [subjectId], references: [id], onDelete: Restrict)
+  professor    Professor? @relation(fields: [professorId], references: [id], onDelete: Restrict)
+  room         Room?      @relation(fields: [roomId], references: [id], onDelete: Restrict)
+  timeBlock    TimeBlock  @relation(fields: [timeBlockId], references: [id], onDelete: Restrict)
+
+  @@unique([dayOfWeek, timeBlockId, roomId])
+  @@unique([dayOfWeek, timeBlockId, classGroupId])
+  @@index([classGroupId, dayOfWeek])
+  @@index([professorId, dayOfWeek])
+  @@map("schedule_slots")
+}
+
+model User {
+  id           String   @id @default(cuid())
+  email        String   @unique
+  passwordHash String   @map("password_hash")
+  role         String   @default("USER")
+  active       Boolean  @default(true)
+  createdAt    DateTime @default(now()) @map("created_at")
+  updatedAt    DateTime @updatedAt @map("updated_at")
+
+  @@map("users")
+}

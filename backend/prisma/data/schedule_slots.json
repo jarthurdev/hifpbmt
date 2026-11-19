@@ -1,0 +1,4052 @@
+[
+  {
+    "id": "schedule-000001",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-matematica-i",
+    "professor_id": "professor-alexandra",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000002",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-fisica-i",
+    "professor_id": "professor-cicera",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000003",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-historia-i",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1130"
+  },
+  {
+    "id": "schedule-000004",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-sociologia-i",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1130-1220"
+  },
+  {
+    "id": "schedule-000005",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-educacao-fisica-i",
+    "professor_id": "professor-tatiana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000006",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-filosofia-i",
+    "professor_id": "professor-cristian",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000007",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-matematica-i",
+    "professor_id": "professor-alexandra",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000008",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-informatica-basica",
+    "professor_id": "professor-jorge",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000009",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-artes",
+    "professor_id": "professor-clara",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000010",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-materiais-de-construcao-civil",
+    "professor_id": "professor-humberto",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000011",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-espanhol-i",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000012",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-higiene-e-seguranca-do-trabalho",
+    "professor_id": "professor-ana-camila",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000013",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-portugues-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000014",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-geografia-i",
+    "professor_id": "professor-ericson",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000015",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-desenho-tecnico",
+    "professor_id": "professor-rebeca",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000016",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-portugues-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000017",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-quimica-i",
+    "professor_id": "professor-gilmario",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000018",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-ted-a",
+    "subject_id": "subject-ted-biologia-i",
+    "professor_id": "professor-socorro",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000019",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-informatica-basica",
+    "professor_id": "professor-leilson",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000020",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-matematica-i",
+    "professor_id": "professor-julio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000021",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-sociologia-i",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1130"
+  },
+  {
+    "id": "schedule-000022",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-historia-i",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-matutino-1130-1220"
+  },
+  {
+    "id": "schedule-000023",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-matematica-i",
+    "professor_id": "professor-julio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0750"
+  },
+  {
+    "id": "schedule-000024",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-filosofia-i",
+    "professor_id": "professor-cristian",
+    "room_id": null,
+    "time_block_id": "time-matutino-0750-0840"
+  },
+  {
+    "id": "schedule-000025",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-fisica-i",
+    "professor_id": "professor-cicera",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000026",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-educacao-fisica-i",
+    "professor_id": "professor-tatiana",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000027",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-materiais-de-construcao-civil",
+    "professor_id": "professor-humberto",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000028",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-higiene-e-seguranca-do-trabalho",
+    "professor_id": "professor-ana-camila",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000029",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-desenho-tecnico",
+    "professor_id": "professor-rebeca",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000030",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-quimica-i",
+    "professor_id": "professor-gilmario",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000031",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-artes",
+    "professor_id": "professor-clara",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000032",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-espanhol-i",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000033",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-biologia-i",
+    "professor_id": "professor-socorro",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000034",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-geografia-i",
+    "professor_id": "professor-telma",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000035",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-portugues-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000036",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-ted-b",
+    "subject_id": "subject-ted-portugues-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000037",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-metodologia-do-trabalho-cientifico",
+    "professor_id": "professor-andre",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000038",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-geografia-ii",
+    "professor_id": "professor-telma",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000039",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-portugues-ii",
+    "professor_id": "professor-alexandre",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000040",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-ingles-i",
+    "professor_id": "professor-ednaldo",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000041",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-educacao-fisica-ii",
+    "professor_id": "professor-tatiana",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000042",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-topografia",
+    "professor_id": "professor-natalia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000043",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-biologia-ii",
+    "professor_id": "professor-karina",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000044",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-sociologia-ii",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1130"
+  },
+  {
+    "id": "schedule-000045",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-portugues-ii",
+    "professor_id": "professor-alexandre",
+    "room_id": null,
+    "time_block_id": "time-matutino-1130-1220"
+  },
+  {
+    "id": "schedule-000046",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-historia-ii",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000047",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-filosofia-ii",
+    "professor_id": "professor-mauricio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000048",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-matematica-ii",
+    "professor_id": "professor-francisco-lucas",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000049",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-matematica-ii",
+    "professor_id": "professor-francisco-lucas",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000050",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-quimica-ii",
+    "professor_id": "professor-pedro-nogueira",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000051",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-desenho-arquitetonico",
+    "professor_id": "professor-adri-lucena",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000052",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-estabilidade-e-concreto",
+    "professor_id": "professor-marinaldo",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000053",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-planejamento-da-construcao-civil",
+    "professor_id": "professor-iracira",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000054",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-planejamento-da-construcao-civil",
+    "professor_id": "professor-iracira",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1530"
+  },
+  {
+    "id": "schedule-000055",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-fisica-ii",
+    "professor_id": "professor-adriano",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000056",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-mecanica-dos-solos",
+    "professor_id": "professor-flavio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000057",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-ted",
+    "subject_id": "subject-ted-instalacoes-hidrossanitarias-e-gas",
+    "professor_id": "professor-marinaldo",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000058",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-matematica-iii",
+    "professor_id": "professor-raissa",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000059",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-portugues-iii",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000060",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-fisica-iii",
+    "professor_id": "professor-rodrigo",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000061",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-instalacoes-eletricas",
+    "professor_id": "professor-kamilla",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000062",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-educacao-fisica-iii",
+    "professor_id": "professor-dayana",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000063",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-filosofia-iii",
+    "professor_id": "professor-mauricio",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000064",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-matematica-iii",
+    "professor_id": "professor-raissa",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000065",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-historia-iii",
+    "professor_id": "professor-maxsuel",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000066",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-desenho-e-calculo-de-estruturas",
+    "professor_id": "professor-natalia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000067",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-ingles-i",
+    "professor_id": "professor-leonardo",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000068",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-ingles-i",
+    "professor_id": "professor-leonardo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000069",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-planejamento-e-orcamento",
+    "professor_id": "professor-natalia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000070",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-tecnologia-da-qualidade",
+    "professor_id": "professor-ana-camila",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000071",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-desenho-projetivo",
+    "professor_id": "professor-adri-lucena",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000072",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-portugues-iii",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000073",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-sociologia-iii",
+    "professor_id": "professor-clayton",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000074",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-tecnicas-construtivas",
+    "professor_id": "professor-rebeca",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000075",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-tecnicas-construtivas",
+    "professor_id": "professor-rebeca",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1530"
+  },
+  {
+    "id": "schedule-000076",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-biologia-iii",
+    "professor_id": "professor-socorro",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1540-1720"
+  },
+  {
+    "id": "schedule-000077",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-geografia-iii",
+    "professor_id": "professor-ericson",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000078",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-patologia-das-edificacoes",
+    "professor_id": "professor-iracira",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000079",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-ted",
+    "subject_id": "subject-ted-quimica-iii",
+    "professor_id": "professor-gilmario",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000080",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-portugues-i",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000081",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-matematica-i",
+    "professor_id": "professor-alexandra",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000082",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-sistemas-e-tecnologia-da-informacao",
+    "professor_id": "professor-jorge",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000083",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-historia-i",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0750"
+  },
+  {
+    "id": "schedule-000084",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-matematica-i",
+    "professor_id": "professor-alexandra",
+    "room_id": null,
+    "time_block_id": "time-matutino-0750-0840"
+  },
+  {
+    "id": "schedule-000085",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-introducao-a-informatica",
+    "professor_id": "professor-kamilla",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000086",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-fisica-i",
+    "professor_id": "professor-cicera",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000087",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-biologia-i",
+    "professor_id": "professor-karina",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000088",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-sociologia-i",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000089",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-portugues-i",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000090",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-educacao-fisica-i",
+    "professor_id": "professor-tatiana",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000091",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-algoritmos",
+    "professor_id": "professor-gildo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000092",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-geografia-i",
+    "professor_id": "professor-telma",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000093",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-filosofia-i",
+    "professor_id": "professor-cristian",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000094",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-quimica-i",
+    "professor_id": "professor-pedro-nogueira",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000095",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-artes",
+    "professor_id": "professor-clara",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000096",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-introducao-a-computacao-e-raciocinio-logico",
+    "professor_id": "professor-joao-igor",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000097",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-informatica-a",
+    "subject_id": "subject-informatica-espanhol-i",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000098",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-sistemas-e-tecnologia-da-informacao",
+    "professor_id": "professor-jorge",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000099",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-biologia-i",
+    "professor_id": "professor-karina",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000100",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-matematica-i",
+    "professor_id": "professor-alexandra",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000101",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-matematica-i",
+    "professor_id": "professor-alexandra",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0750"
+  },
+  {
+    "id": "schedule-000102",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-historia-i",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0750-0840"
+  },
+  {
+    "id": "schedule-000103",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-educacao-fisica-i",
+    "professor_id": "professor-tatiana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000104",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-introducao-a-informatica",
+    "professor_id": "professor-kamilla",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000105",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-fisica-i",
+    "professor_id": "professor-cicera",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000106",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-algoritmos",
+    "professor_id": "professor-gildo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000107",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-sociologia-i",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1130"
+  },
+  {
+    "id": "schedule-000108",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-filosofia-i",
+    "professor_id": "professor-cristian",
+    "room_id": null,
+    "time_block_id": "time-matutino-1130-1220"
+  },
+  {
+    "id": "schedule-000109",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-portugues-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000110",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-espanhol-i",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000111",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-artes",
+    "professor_id": "professor-clara",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000112",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-quimica-i",
+    "professor_id": "professor-pedro-nogueira",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000113",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-portugues-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000114",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-geografia-i",
+    "professor_id": "professor-telma",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000115",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-informatica-b",
+    "subject_id": "subject-informatica-introducao-a-computacao-e-raciocinio-logico",
+    "professor_id": "professor-joao-igor",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000116",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-geografia-ii",
+    "professor_id": "professor-telma",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000117",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-sociologia-ii",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000118",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-matematica-ii",
+    "professor_id": "professor-shirlene",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000119",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-biologia-ii",
+    "professor_id": "professor-karina",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000120",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-programacao-de-aplicacoes-desktop",
+    "professor_id": "professor-alberto",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000121",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-historia-ii",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000122",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-matematica-ii",
+    "professor_id": "professor-shirlene",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000123",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-ingles-i",
+    "professor_id": "professor-ednaldo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000124",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-desenvolvimento-front-end-e-banco-de-dados",
+    "professor_id": "professor-alberto",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000125",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-educacao-fisica-ii",
+    "professor_id": "professor-dayana",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000126",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-filosofia-ii",
+    "professor_id": "professor-mauricio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0750"
+  },
+  {
+    "id": "schedule-000127",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-portugues-ii",
+    "professor_id": "professor-alexandre",
+    "room_id": null,
+    "time_block_id": "time-matutino-0750-0840"
+  },
+  {
+    "id": "schedule-000128",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-portugues-ii",
+    "professor_id": "professor-alexandre",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000129",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-programacao-de-aplicacoes-desktop",
+    "professor_id": "professor-alberto",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000130",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-fisica-ii",
+    "professor_id": "professor-adriano",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000131",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-metodologia-do-trabalho-cientifico",
+    "professor_id": "professor-theresa",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000132",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-espanhol-ii",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000133",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-fundamentos-de-implantacao-de-redes",
+    "professor_id": "professor-yure",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000134",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-fundamentos-de-banco-de-dados",
+    "professor_id": "professor-marcia-lima",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000135",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-quimica-ii",
+    "professor_id": "professor-pedro-nogueira",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000136",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-informatica-a",
+    "subject_id": "subject-informatica-fundamentos-de-implantacao-de-redes",
+    "professor_id": "professor-yure",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000137",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-biologia-ii",
+    "professor_id": "professor-karina",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000138",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-matematica-iii",
+    "professor_id": "professor-shirlene",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000139",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-programacao-de-aplicacoes-desktop",
+    "professor_id": "professor-alberto",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000140",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-filosofia-ii",
+    "professor_id": "professor-mauricio",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000141",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-educacao-fisica-ii",
+    "professor_id": "professor-tatiana",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000142",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-matematica-iii",
+    "professor_id": "professor-shirlene",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000143",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-portugues-ii",
+    "professor_id": "professor-alexandre",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000144",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-ingles-i",
+    "professor_id": "professor-ednaldo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000145",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-desenvolvimento-front-end",
+    "professor_id": "professor-alberto",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000146",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-programacao-de-aplicacoes-desktop",
+    "professor_id": "professor-alberto",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000147",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-historia-ii",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000148",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-portugues-ii",
+    "professor_id": "professor-alexandre",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1130"
+  },
+  {
+    "id": "schedule-000149",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-sociologia-ii",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1130-1220"
+  },
+  {
+    "id": "schedule-000150",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-espanhol-ii",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000151",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-fisica-ii",
+    "professor_id": "professor-adriano",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000152",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-fundamentos-de-implantacao-de-redes",
+    "professor_id": "professor-yure",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000153",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-quimica-ii",
+    "professor_id": "professor-pedro-nogueira",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000154",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-fundamentos-de-banco-de-dados",
+    "professor_id": "professor-marcia-lima",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000155",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-geografia-ii",
+    "professor_id": "professor-telma",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000156",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-fundamentos-de-implantacao-de-redes",
+    "professor_id": "professor-yure",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000157",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-informatica-b",
+    "subject_id": "subject-informatica-metodologia-do-trabalho-cientifico",
+    "professor_id": "professor-theresa",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000158",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-fisica-iii",
+    "professor_id": "professor-rodrigo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000159",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-educacao-fisica-iii",
+    "professor_id": "professor-dayana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000160",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-portugues-iii",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1130"
+  },
+  {
+    "id": "schedule-000161",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-matematica-iii",
+    "professor_id": "professor-francisco-lucas",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000162",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-portugues-iii",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000163",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-ingles-i",
+    "professor_id": "professor-leonardo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000164",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-filosofia-iii",
+    "professor_id": "professor-mauricio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000165",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-matematica-iii",
+    "professor_id": "professor-francisco-lucas",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000166",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-geografia-iii",
+    "professor_id": "professor-ericson",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000167",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-historia-iii",
+    "professor_id": "professor-maxsuel",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000168",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-ingles-i",
+    "professor_id": "professor-leonardo",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000169",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-sociologia-iii",
+    "professor_id": "professor-clayton",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000170",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-biologia-iii",
+    "professor_id": "professor-socorro",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000171",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-execucao-de-projetos-de-software",
+    "professor_id": "professor-marcia-lima",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000172",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-empreendedorismo",
+    "professor_id": "professor-dellany",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000173",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-desenvolvimento-back-end-web",
+    "professor_id": "professor-igor",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000174",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-quimica-iii",
+    "professor_id": "professor-gilmario",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000175",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-espanhol-ii",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000176",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-execucao-de-projetos-de-software",
+    "professor_id": "professor-marcia-lima",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000177",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-informatica-a",
+    "subject_id": "subject-informatica-desenvolvimento-back-end-web",
+    "professor_id": "professor-igor",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000178",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-matematica-iii",
+    "professor_id": "professor-francisco-lucas",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000179",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-filosofia-iii",
+    "professor_id": "professor-mauricio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000180",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-ingles-ii",
+    "professor_id": "professor-ednaldo",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000181",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-portugues-iii",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000182",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-fisica-iii",
+    "professor_id": "professor-rodrigo",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000183",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-portugues-iii",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0750"
+  },
+  {
+    "id": "schedule-000184",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-matematica-iii",
+    "professor_id": "professor-francisco-lucas",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000185",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-historia-iii",
+    "professor_id": "professor-maxsuel",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000186",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-educacao-fisica-iii",
+    "professor_id": "professor-dayana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000187",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-desenvolvimento-back-end-web",
+    "professor_id": "professor-paulo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000188",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-hardware-de-computadores-e-perifericos",
+    "professor_id": "professor-gildo",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000189",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-desenvolvimento-back-end-web",
+    "professor_id": "professor-paulo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000190",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-execucao-de-projetos-de-software",
+    "professor_id": "professor-marcia-lima",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000191",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-geografia-iii",
+    "professor_id": "professor-ericson",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000192",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-biologia-iii",
+    "professor_id": "professor-socorro",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000193",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-quimica-iii",
+    "professor_id": "professor-gilmario",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000194",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-espanhol-ii",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000195",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-sociologia-iii",
+    "professor_id": "professor-clayton",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000196",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-informatica-b",
+    "subject_id": "subject-informatica-execucao-de-projetos-de-software",
+    "professor_id": "professor-marcia-lima",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000197",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-matematica-i",
+    "professor_id": "professor-julio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0750"
+  },
+  {
+    "id": "schedule-000198",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-sociologia-i",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0750-0840"
+  },
+  {
+    "id": "schedule-000199",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-historia-da-musica-i",
+    "professor_id": "professor-junior-sanfoneiro",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000200",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-matematica-i",
+    "professor_id": "professor-julio",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000201",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-instrumento-i-turma-s",
+    "professor_id": "professor-cyran",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000202",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-instrumento-i-turma-s",
+    "professor_id": "professor-fidja",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000203",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-instrumento-i-turma-s",
+    "professor_id": "professor-anderson-jardel",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000204",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-instrumento-i-turma-s",
+    "professor_id": "professor-junior-sanfoneiro",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000205",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-instrumento-i-turma-s",
+    "professor_id": "professor-andre",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000206",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-linguagem-musical-i",
+    "professor_id": "professor-anderson-jardel",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000207",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-filosofia-i",
+    "professor_id": "professor-cristian",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000208",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-historia-i",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000209",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-ingles-i",
+    "professor_id": "professor-ednaldo",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000210",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-educacao-fisica-i",
+    "professor_id": "professor-tatiana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000211",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-fisica-i",
+    "professor_id": "professor-cicera",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000212",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-artes",
+    "professor_id": "professor-clara",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000213",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-pratica-vocal",
+    "professor_id": "professor-marta",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000214",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-informatica-basica",
+    "professor_id": "professor-joao-igor",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000215",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-portugues-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1130"
+  },
+  {
+    "id": "schedule-000216",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-instrumento-i-turma-q",
+    "professor_id": "professor-marta",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000217",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-instrumento-i-turma-q",
+    "professor_id": "professor-theresa",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000218",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-instrumento-i-turma-q",
+    "professor_id": "professor-danielly",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000219",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-instrumento-i-turma-q",
+    "professor_id": "professor-ivan",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000220",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-portugues-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000221",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-quimica-i",
+    "professor_id": "professor-gilmario",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000222",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-biologia-i",
+    "professor_id": "professor-socorro",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000223",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-ima",
+    "subject_id": "subject-im-geografia-i",
+    "professor_id": "professor-ericson",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000224",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-historia-da-musica-i",
+    "professor_id": "professor-junior-sanfoneiro",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000225",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-sociologia-i",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000226",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-matematica-i",
+    "professor_id": "professor-francisco-lucas",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000227",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-fisica-i",
+    "professor_id": "professor-cicera",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000228",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-instrumento-i-turma-s",
+    "professor_id": "professor-cyran",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000229",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-instrumento-i-turma-s",
+    "professor_id": "professor-fidja",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000230",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-instrumento-i-turma-s",
+    "professor_id": "professor-anderson-jardel",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000231",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-instrumento-i-turma-s",
+    "professor_id": "professor-junior-sanfoneiro",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000232",
+    "day_of_week": 1,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-instrumento-i-turma-s",
+    "professor_id": "professor-andre",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000233",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-matematica-i",
+    "professor_id": "professor-francisco-lucas",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000234",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-linguagem-musical-i",
+    "professor_id": "professor-anderson-jardel",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000235",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-filosofia-i",
+    "professor_id": "professor-cristian",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1130"
+  },
+  {
+    "id": "schedule-000236",
+    "day_of_week": 2,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-historia-i",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-matutino-1130-1220"
+  },
+  {
+    "id": "schedule-000237",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-ingles-i",
+    "professor_id": "professor-ednaldo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000238",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-educacao-fisica-i",
+    "professor_id": "professor-tatiana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000239",
+    "day_of_week": 3,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-informatica-basica",
+    "professor_id": "professor-leilson",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000240",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-biologia-i",
+    "professor_id": "professor-socorro",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000241",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-portugues-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000242",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-quimica-i",
+    "professor_id": "professor-gilmario",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000243",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-instrumento-i-turma-q",
+    "professor_id": "professor-marta",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000244",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-instrumento-i-turma-q",
+    "professor_id": "professor-theresa",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000245",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-instrumento-i-turma-q",
+    "professor_id": "professor-danielly",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000246",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-instrumento-i-turma-q",
+    "professor_id": "professor-ivan",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000247",
+    "day_of_week": 4,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-portugues-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000248",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-pratica-vocal",
+    "professor_id": "professor-marta",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000249",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-artes",
+    "professor_id": "professor-clara",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000250",
+    "day_of_week": 5,
+    "class_group_id": "class-1-ano-imb",
+    "subject_id": "subject-im-geografia-i",
+    "professor_id": "professor-ericson",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000251",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-historia-ii",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000252",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-portugues-ii",
+    "professor_id": "professor-alexandre",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000253",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-matematica-ii",
+    "professor_id": "professor-shirlene",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000254",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-matematica-ii",
+    "professor_id": "professor-shirlene",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1350"
+  },
+  {
+    "id": "schedule-000255",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-sociologia-ii",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1350-1440"
+  },
+  {
+    "id": "schedule-000256",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-s",
+    "professor_id": "professor-andre",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000257",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-s",
+    "professor_id": "professor-cyran",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000258",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-s",
+    "professor_id": "professor-fidja",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000259",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-s",
+    "professor_id": "professor-junior-sanfoneiro",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000260",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-s",
+    "professor_id": "professor-anderson-jardel",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000261",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-pratica-de-conjunto-i",
+    "professor_id": "professor-andre",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000262",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-educacao-fisica-ii",
+    "professor_id": "professor-dayana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000263",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-biologia-ii",
+    "professor_id": "professor-karina",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000264",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-portugues-ii",
+    "professor_id": "professor-alexandre",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0750"
+  },
+  {
+    "id": "schedule-000265",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-filosofia-ii",
+    "professor_id": "professor-mauricio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0750-0840"
+  },
+  {
+    "id": "schedule-000266",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-ingles-ii",
+    "professor_id": "professor-ednaldo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000267",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-historia-da-musica-ii",
+    "professor_id": "professor-fidja",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000268",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-geografia-ii",
+    "professor_id": "professor-telma",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000269",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-empreendedorismo",
+    "professor_id": "professor-dellany",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000270",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-fisica-ii",
+    "professor_id": "professor-adriano",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000271",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-q",
+    "professor_id": "professor-ivan",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000272",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-q",
+    "professor_id": "professor-danielly",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000273",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-q",
+    "professor_id": "professor-marta",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000274",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-q",
+    "professor_id": "professor-theresa",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000275",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-linguagem-musical-ii",
+    "professor_id": "professor-theresa",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000276",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-espanhol-i",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000277",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-im-a",
+    "subject_id": "subject-im-quimica-ii",
+    "professor_id": "professor-pedro-nogueira",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000278",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-portugues-ii",
+    "professor_id": "professor-alexandre",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000279",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-ingles-i",
+    "professor_id": "professor-ednaldo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000280",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-matematica-ii",
+    "professor_id": "professor-francisco-lucas",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1130"
+  },
+  {
+    "id": "schedule-000281",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-educacao-fisica-ii",
+    "professor_id": "professor-dayana",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000282",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-s",
+    "professor_id": "professor-andre",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000283",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-s",
+    "professor_id": "professor-cyran",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000284",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-s",
+    "professor_id": "professor-fidja",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000285",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-s",
+    "professor_id": "professor-junior-sanfoneiro",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000286",
+    "day_of_week": 1,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-s",
+    "professor_id": "professor-anderson-jardel",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000287",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-biologia-ii",
+    "professor_id": "professor-karina",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000288",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-historia-da-musica-ii",
+    "professor_id": "professor-fidja",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000289",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-sociologia-ii",
+    "professor_id": "professor-ana-savia",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1130"
+  },
+  {
+    "id": "schedule-000290",
+    "day_of_week": 2,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-portugues-ii",
+    "professor_id": "professor-alexandre",
+    "room_id": null,
+    "time_block_id": "time-matutino-1130-1220"
+  },
+  {
+    "id": "schedule-000291",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-linguagem-musical-ii",
+    "professor_id": "professor-anderson-jardel",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000292",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-filosofia-ii",
+    "professor_id": "professor-mauricio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-0950"
+  },
+  {
+    "id": "schedule-000293",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-matematica-ii",
+    "professor_id": "professor-francisco-lucas",
+    "room_id": null,
+    "time_block_id": "time-matutino-0950-1040"
+  },
+  {
+    "id": "schedule-000294",
+    "day_of_week": 3,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-historia-ii",
+    "professor_id": "professor-santana",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000295",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-pratica-de-conjunto-i",
+    "professor_id": "professor-ivan",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000296",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-quimica-ii",
+    "professor_id": "professor-pedro-nogueira",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000297",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-geografia-ii",
+    "professor_id": "professor-telma",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000298",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-q",
+    "professor_id": "professor-ivan",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000299",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-q",
+    "professor_id": "professor-danielly",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000300",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-q",
+    "professor_id": "professor-marta",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000301",
+    "day_of_week": 4,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-instrumento-musical-ii-turma-q",
+    "professor_id": "professor-theresa",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000302",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-empreendedorismo",
+    "professor_id": "professor-dellany",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000303",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-espanhol-i",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000304",
+    "day_of_week": 5,
+    "class_group_id": "class-2-ano-im-b",
+    "subject_id": "subject-im-fisica-ii",
+    "professor_id": "professor-adriano",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000305",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-educacao-fisica-iii",
+    "professor_id": "professor-dayana",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000306",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-fisica-iii",
+    "professor_id": "professor-rodrigo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000307",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-matematica-iii",
+    "professor_id": "professor-raissa",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000308",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-pratica-de-conjunto-ii",
+    "professor_id": "professor-anderson-jardel",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000309",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-pratica-de-conjunto-ii",
+    "professor_id": "professor-cyran",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000310",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-pratica-de-conjunto-ii",
+    "professor_id": "professor-junior-sanfoneiro",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000311",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-portugues-iii",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000312",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-instrumento-musical-iii-turma-s",
+    "professor_id": "professor-andre",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000313",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-instrumento-musical-iii-turma-s",
+    "professor_id": "professor-cyran",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000314",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-instrumento-musical-iii-turma-s",
+    "professor_id": "professor-fidja",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000315",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-instrumento-musical-iii-turma-s",
+    "professor_id": "professor-junior-sanfoneiro",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000316",
+    "day_of_week": 1,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-instrumento-musical-iii-turma-s",
+    "professor_id": "professor-anderson-jardel",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000317",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-filosofia-iii",
+    "professor_id": "professor-mauricio",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000318",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-matematica-iii",
+    "professor_id": "professor-raissa",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000319",
+    "day_of_week": 2,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-ingles-iii",
+    "professor_id": "professor-leonardo",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000320",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-portugues-iii",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000321",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-ingles-iii",
+    "professor_id": "professor-leonardo",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000322",
+    "day_of_week": 3,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-musica-e-tecnologia",
+    "professor_id": "professor-ivan",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000323",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-quimica-iii",
+    "professor_id": "professor-gilmario",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000324",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-historia-iii",
+    "professor_id": "professor-maxsuel",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000325",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-biologia-iii",
+    "professor_id": "professor-socorro",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000326",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-geografia-iii",
+    "professor_id": "professor-ericson",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1300-1440"
+  },
+  {
+    "id": "schedule-000327",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-sociologia-iii",
+    "professor_id": "professor-clayton",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1440-1630"
+  },
+  {
+    "id": "schedule-000328",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-instrumento-musical-iii-turma-q",
+    "professor_id": "professor-ivan",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000329",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-instrumento-musical-iii-turma-q",
+    "professor_id": "professor-danielly",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000330",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-instrumento-musical-iii-turma-q",
+    "professor_id": "professor-marta",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000331",
+    "day_of_week": 4,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-instrumento-musical-iii-turma-q",
+    "professor_id": "professor-theresa",
+    "room_id": null,
+    "time_block_id": "time-vespertino-1630-1810"
+  },
+  {
+    "id": "schedule-000332",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-espanhol-ii",
+    "professor_id": "professor-ana-luzia",
+    "room_id": null,
+    "time_block_id": "time-matutino-0700-0840"
+  },
+  {
+    "id": "schedule-000333",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-metodologia-do-trabalho-cientifico",
+    "professor_id": "professor-theresa",
+    "room_id": null,
+    "time_block_id": "time-matutino-0900-1040"
+  },
+  {
+    "id": "schedule-000334",
+    "day_of_week": 5,
+    "class_group_id": "class-3-ano-im",
+    "subject_id": "subject-im-harmonia-e-improvisacao",
+    "professor_id": "professor-danielly",
+    "room_id": null,
+    "time_block_id": "time-matutino-1040-1220"
+  },
+  {
+    "id": "schedule-000335",
+    "day_of_week": 1,
+    "class_group_id": "class-6-periodo-tce",
+    "subject_id": "subject-tce-especificacao-e-orcamento-de-obras",
+    "professor_id": "professor-natalia",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000336",
+    "day_of_week": 1,
+    "class_group_id": "class-6-periodo-tce",
+    "subject_id": "subject-tce-projeto-e-implantacao-de-canteiro-de-obras",
+    "professor_id": "professor-marinaldo",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000337",
+    "day_of_week": 2,
+    "class_group_id": "class-6-periodo-tce",
+    "subject_id": "subject-tce-construcoes-industrializadas",
+    "professor_id": "professor-adri-lucena",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000338",
+    "day_of_week": 2,
+    "class_group_id": "class-6-periodo-tce",
+    "subject_id": "subject-tce-especificacao-e-orcamento-de-obras",
+    "professor_id": "professor-natalia",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000339",
+    "day_of_week": 3,
+    "class_group_id": "class-6-periodo-tce",
+    "subject_id": "subject-tce-gestao-de-rh",
+    "professor_id": "professor-dellany",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000340",
+    "day_of_week": 4,
+    "class_group_id": "class-6-periodo-tce",
+    "subject_id": "subject-tce-patologia",
+    "professor_id": "professor-iracira",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000341",
+    "day_of_week": 5,
+    "class_group_id": "class-6-periodo-tce",
+    "subject_id": "subject-tce-empreendedorismo",
+    "professor_id": "professor-dellany",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000342",
+    "day_of_week": 5,
+    "class_group_id": "class-6-periodo-tce",
+    "subject_id": "subject-tce-libras",
+    "professor_id": "professor-priscilla",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000343",
+    "day_of_week": 1,
+    "class_group_id": "class-7-periodo-tce",
+    "subject_id": "subject-tce-qualidade-na-construcao-civil",
+    "professor_id": "professor-ana-camila",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000344",
+    "day_of_week": 1,
+    "class_group_id": "class-7-periodo-tce",
+    "subject_id": "subject-tce-historia-das-cidades",
+    "professor_id": "professor-maxsuel",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000345",
+    "day_of_week": 2,
+    "class_group_id": "class-7-periodo-tce",
+    "subject_id": "subject-tce-gestao-de-residuos-da-construcao",
+    "professor_id": "professor-flavio",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000346",
+    "day_of_week": 2,
+    "class_group_id": "class-7-periodo-tce",
+    "subject_id": "subject-tce-qualidade-na-construcao-civil",
+    "professor_id": "professor-ana-camila",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000347",
+    "day_of_week": 3,
+    "class_group_id": "class-7-periodo-tce",
+    "subject_id": "subject-tce-manutencao-predial",
+    "professor_id": "professor-flavio",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000348",
+    "day_of_week": 3,
+    "class_group_id": "class-7-periodo-tce",
+    "subject_id": "subject-tce-gestao-de-residuos-da-construcao",
+    "professor_id": "professor-flavio",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000349",
+    "day_of_week": 4,
+    "class_group_id": "class-7-periodo-tce",
+    "subject_id": "subject-tce-gerencia-de-suprimentos",
+    "professor_id": "professor-dellany",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000350",
+    "day_of_week": 4,
+    "class_group_id": "class-7-periodo-tce",
+    "subject_id": "subject-tce-avaliacao-pos-ocupacao",
+    "professor_id": "professor-flavio",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000351",
+    "day_of_week": 5,
+    "class_group_id": "class-7-periodo-tce",
+    "subject_id": "subject-tce-planejamento-e-controle-de-obras",
+    "professor_id": "professor-iracira",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000352",
+    "day_of_week": 1,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-laboratorio-de-algoritmos-e-logica-de-programacao",
+    "professor_id": "professor-leilson",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000353",
+    "day_of_week": 1,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-introducao-a-computacao",
+    "professor_id": "professor-kamilla",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000354",
+    "day_of_week": 2,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-introducao-a-computacao",
+    "professor_id": "professor-kamilla",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000355",
+    "day_of_week": 2,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-laboratorio-de-algoritmos-e-logica-de-programacao",
+    "professor_id": "professor-leilson",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000356",
+    "day_of_week": 3,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-algoritmos-e-logica-de-programacao",
+    "professor_id": "professor-paulo",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000357",
+    "day_of_week": 3,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-algoritmos-e-logica-de-programacao",
+    "professor_id": "professor-leilson",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000358",
+    "day_of_week": 4,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-matematica-basica",
+    "professor_id": "professor-julio",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000359",
+    "day_of_week": 4,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-algoritmos-e-logica-de-programacao",
+    "professor_id": "professor-paulo",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000360",
+    "day_of_week": 4,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-algoritmos-e-logica-de-programacao",
+    "professor_id": "professor-leilson",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000361",
+    "day_of_week": 5,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-portugues-instrumental-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000362",
+    "day_of_week": 5,
+    "class_group_id": "class-1-periodo-ads",
+    "subject_id": "subject-ads-ingles-instrumental-i",
+    "professor_id": "professor-leonardo",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000363",
+    "day_of_week": 1,
+    "class_group_id": "class-2-periodo-ads",
+    "subject_id": "subject-ads-programacao-orientada-a-objetos",
+    "professor_id": "professor-alberto",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000364",
+    "day_of_week": 1,
+    "class_group_id": "class-2-periodo-ads",
+    "subject_id": "subject-ads-matematica-aplicada-a-computacao",
+    "professor_id": "professor-leilson",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000365",
+    "day_of_week": 2,
+    "class_group_id": "class-2-periodo-ads",
+    "subject_id": "subject-ads-programacao-orientada-a-objetos",
+    "professor_id": "professor-alberto",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000366",
+    "day_of_week": 2,
+    "class_group_id": "class-2-periodo-ads",
+    "subject_id": "subject-ads-programacao-orientada-a-objetos",
+    "professor_id": "professor-alberto",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000367",
+    "day_of_week": 3,
+    "class_group_id": "class-2-periodo-ads",
+    "subject_id": "subject-ads-portugues-instrumental-ii",
+    "professor_id": "professor-maria",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000368",
+    "day_of_week": 3,
+    "class_group_id": "class-2-periodo-ads",
+    "subject_id": "subject-ads-ingles-instrumental-ii",
+    "professor_id": "professor-leonardo",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000369",
+    "day_of_week": 4,
+    "class_group_id": "class-2-periodo-ads",
+    "subject_id": "subject-ads-relacoes-humanas-no-trabalho",
+    "professor_id": "professor-clayton",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000370",
+    "day_of_week": 4,
+    "class_group_id": "class-2-periodo-ads",
+    "subject_id": "subject-ads-metodologia-da-pesquisa-cientifica",
+    "professor_id": "professor-danielly",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000371",
+    "day_of_week": 5,
+    "class_group_id": "class-2-periodo-ads",
+    "subject_id": "subject-ads-introducao-a-redes-de-computadores",
+    "professor_id": "professor-yure",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000372",
+    "day_of_week": 5,
+    "class_group_id": "class-2-periodo-ads",
+    "subject_id": "subject-ads-introducao-a-redes-de-computadores",
+    "professor_id": "professor-yure",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000373",
+    "day_of_week": 1,
+    "class_group_id": "class-3-periodo-ads",
+    "subject_id": "subject-ads-banco-de-dados-i",
+    "professor_id": "professor-marcia-lima",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000374",
+    "day_of_week": 3,
+    "class_group_id": "class-3-periodo-ads",
+    "subject_id": "subject-ads-estrutura-de-dados-e-algoritmos",
+    "professor_id": "professor-igor",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000375",
+    "day_of_week": 4,
+    "class_group_id": "class-3-periodo-ads",
+    "subject_id": "subject-ads-sistemas-operacionais",
+    "professor_id": "professor-yure",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000376",
+    "day_of_week": 4,
+    "class_group_id": "class-3-periodo-ads",
+    "subject_id": "subject-ads-sistemas-operacionais",
+    "professor_id": "professor-yure",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000377",
+    "day_of_week": 5,
+    "class_group_id": "class-3-periodo-ads",
+    "subject_id": "subject-ads-estrutura-de-dados-e-algoritmos",
+    "professor_id": "professor-igor",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000378",
+    "day_of_week": 5,
+    "class_group_id": "class-3-periodo-ads",
+    "subject_id": "subject-ads-banco-de-dados-i",
+    "professor_id": "professor-marcia-lima",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000379",
+    "day_of_week": 1,
+    "class_group_id": "class-4-periodo-ads",
+    "subject_id": "subject-ads-processos-de-software",
+    "professor_id": null,
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000380",
+    "day_of_week": 2,
+    "class_group_id": "class-4-periodo-ads",
+    "subject_id": "subject-ads-banco-de-dados-ii",
+    "professor_id": "professor-gildo",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000381",
+    "day_of_week": 3,
+    "class_group_id": "class-4-periodo-ads",
+    "subject_id": "subject-ads-topicos-avancados-de-programacao",
+    "professor_id": "professor-marcia-lima",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000382",
+    "day_of_week": 3,
+    "class_group_id": "class-4-periodo-ads",
+    "subject_id": "subject-ads-analise-e-projeto-de-sistemas",
+    "professor_id": "professor-joao-igor",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000383",
+    "day_of_week": 4,
+    "class_group_id": "class-4-periodo-ads",
+    "subject_id": "subject-ads-topicos-avancados-de-programacao",
+    "professor_id": "professor-marcia-lima",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000384",
+    "day_of_week": 4,
+    "class_group_id": "class-4-periodo-ads",
+    "subject_id": "subject-ads-processos-de-software",
+    "professor_id": null,
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000385",
+    "day_of_week": 5,
+    "class_group_id": "class-4-periodo-ads",
+    "subject_id": "subject-ads-analise-e-projeto-de-sistemas",
+    "professor_id": "professor-joao-igor",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000386",
+    "day_of_week": 5,
+    "class_group_id": "class-4-periodo-ads",
+    "subject_id": "subject-ads-analise-e-projeto-de-sistemas",
+    "professor_id": "professor-joao-igor",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000387",
+    "day_of_week": 1,
+    "class_group_id": "class-5-periodo-ads",
+    "subject_id": "subject-ads-projeto-i",
+    "professor_id": "professor-paulo",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000388",
+    "day_of_week": 1,
+    "class_group_id": "class-5-periodo-ads",
+    "subject_id": "subject-ads-sistemas-e-tecnologia-da-informacao",
+    "professor_id": null,
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000389",
+    "day_of_week": 3,
+    "class_group_id": "class-5-periodo-ads",
+    "subject_id": "subject-ads-seguranca-da-informacao",
+    "professor_id": "professor-joao-igor",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000390",
+    "day_of_week": 4,
+    "class_group_id": "class-5-periodo-ads",
+    "subject_id": "subject-ads-desenvolvimento-de-aplicacoes-corporativas",
+    "professor_id": "professor-igor",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000391",
+    "day_of_week": 5,
+    "class_group_id": "class-5-periodo-ads",
+    "subject_id": "subject-ads-projeto-i",
+    "professor_id": "professor-paulo",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000392",
+    "day_of_week": 5,
+    "class_group_id": "class-5-periodo-ads",
+    "subject_id": "subject-ads-desenvolvimento-de-aplicacoes-corporativas",
+    "professor_id": "professor-igor",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000393",
+    "day_of_week": 1,
+    "class_group_id": "class-6-periodo-ads",
+    "subject_id": "subject-ads-metodologia-do-trabalho-cientifico",
+    "professor_id": "professor-maxsuel",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000394",
+    "day_of_week": 1,
+    "class_group_id": "class-6-periodo-ads",
+    "subject_id": "subject-ads-projeto-ii",
+    "professor_id": "professor-paulo",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000395",
+    "day_of_week": 2,
+    "class_group_id": "class-6-periodo-ads",
+    "subject_id": "subject-ads-sistemas-distribuidos",
+    "professor_id": "professor-leilson",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000396",
+    "day_of_week": 2,
+    "class_group_id": "class-6-periodo-ads",
+    "subject_id": "subject-ads-projeto-ii",
+    "professor_id": "professor-paulo",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000397",
+    "day_of_week": 3,
+    "class_group_id": "class-6-periodo-ads",
+    "subject_id": "subject-ads-programacao-para-dispositivos-moveis",
+    "professor_id": "professor-gildo",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000398",
+    "day_of_week": 3,
+    "class_group_id": "class-6-periodo-ads",
+    "subject_id": "subject-ads-programacao-para-dispositivos-moveis",
+    "professor_id": "professor-gildo",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000399",
+    "day_of_week": 4,
+    "class_group_id": "class-6-periodo-ads",
+    "subject_id": "subject-ads-interacao-humano-computador",
+    "professor_id": "professor-joao-igor",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000400",
+    "day_of_week": 5,
+    "class_group_id": "class-6-periodo-ads",
+    "subject_id": "subject-ads-empreendedorismo",
+    "professor_id": "professor-dellany",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000401",
+    "day_of_week": 5,
+    "class_group_id": "class-6-periodo-ads",
+    "subject_id": "subject-ads-libras",
+    "professor_id": "professor-priscilla",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000402",
+    "day_of_week": 1,
+    "class_group_id": "class-1-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-calculo-diferencial-e-integral-i",
+    "professor_id": "professor-fabio",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000403",
+    "day_of_week": 2,
+    "class_group_id": "class-1-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-fundamentos-da-metodologia-cientifica",
+    "professor_id": "professor-andre",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000404",
+    "day_of_week": 2,
+    "class_group_id": "class-1-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-introducao-a-engenharia-civil",
+    "professor_id": "professor-humberto",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000405",
+    "day_of_week": 3,
+    "class_group_id": "class-1-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-introducao-a-computacao",
+    "professor_id": "professor-kamilla",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000406",
+    "day_of_week": 3,
+    "class_group_id": "class-1-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-introducao-a-computacao",
+    "professor_id": "professor-kamilla",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000407",
+    "day_of_week": 4,
+    "class_group_id": "class-1-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-quimica-experimental-i",
+    "professor_id": "professor-pedro-nogueira",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000408",
+    "day_of_week": 4,
+    "class_group_id": "class-1-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-relacoes-humanas-no-trabalho",
+    "professor_id": "professor-clayton",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000409",
+    "day_of_week": 5,
+    "class_group_id": "class-1-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-algebra-vetorial",
+    "professor_id": "professor-julio",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000410",
+    "day_of_week": 5,
+    "class_group_id": "class-1-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-algebra-vetorial",
+    "professor_id": "professor-julio",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000411",
+    "day_of_week": 1,
+    "class_group_id": "class-2-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-fisica-geral-i",
+    "professor_id": "professor-cicera",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000412",
+    "day_of_week": 2,
+    "class_group_id": "class-2-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-algebra-linear",
+    "professor_id": "professor-alexandra",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000413",
+    "day_of_week": 3,
+    "class_group_id": "class-2-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-desenho-tecnico",
+    "professor_id": "professor-rebeca",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000414",
+    "day_of_week": 3,
+    "class_group_id": "class-2-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-desenho-tecnico",
+    "professor_id": "professor-rebeca",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000415",
+    "day_of_week": 4,
+    "class_group_id": "class-2-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-geologia",
+    "professor_id": "professor-ericson",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000416",
+    "day_of_week": 4,
+    "class_group_id": "class-2-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-calculo-diferencial-e-integral-ii",
+    "professor_id": "professor-fabio",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000417",
+    "day_of_week": 5,
+    "class_group_id": "class-2-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-construcao-civil-e-meio-ambiente",
+    "professor_id": "professor-flavio",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000418",
+    "day_of_week": 5,
+    "class_group_id": "class-2-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-calculo-diferencial-e-integral-ii",
+    "professor_id": "professor-fabio",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000419",
+    "day_of_week": 1,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-fisica-geral-ii",
+    "professor_id": "professor-rodrigo",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000420",
+    "day_of_week": 1,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-fisica-geral-ii",
+    "professor_id": "professor-rodrigo",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000421",
+    "day_of_week": 2,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-calculo-iii",
+    "professor_id": "professor-fabio",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000422",
+    "day_of_week": 2,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-calculo-iii",
+    "professor_id": "professor-fabio",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000423",
+    "day_of_week": 3,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-desenho-bim",
+    "professor_id": "professor-humberto",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000424",
+    "day_of_week": 3,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-economia-da-engenharia",
+    "professor_id": "professor-julio",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2120"
+  },
+  {
+    "id": "schedule-000425",
+    "day_of_week": 3,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-matematica-financeira",
+    "professor_id": "professor-julio",
+    "room_id": null,
+    "time_block_id": "time-noturno-2120-2210"
+  },
+  {
+    "id": "schedule-000426",
+    "day_of_week": 4,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-probabilidade-e-estatistica",
+    "professor_id": "professor-fabio",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000427",
+    "day_of_week": 4,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-mecanica-geral",
+    "professor_id": "professor-marinaldo",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000428",
+    "day_of_week": 5,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-desenho-bim",
+    "professor_id": "professor-humberto",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000429",
+    "day_of_week": 5,
+    "class_group_id": "class-3-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-mecanica-geral",
+    "professor_id": "professor-marinaldo",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000430",
+    "day_of_week": 1,
+    "class_group_id": "class-4-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-calculo-iv",
+    "professor_id": "professor-alexandra",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000431",
+    "day_of_week": 2,
+    "class_group_id": "class-4-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-fisica-geral-iii",
+    "professor_id": "professor-rodrigo",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000432",
+    "day_of_week": 3,
+    "class_group_id": "class-4-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-fisica-experimental",
+    "professor_id": "professor-cicera",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000433",
+    "day_of_week": 3,
+    "class_group_id": "class-4-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-topografia-i",
+    "professor_id": "professor-natalia",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000434",
+    "day_of_week": 4,
+    "class_group_id": "class-4-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-materiais-de-construcao-i",
+    "professor_id": "professor-rebeca",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000435",
+    "day_of_week": 4,
+    "class_group_id": "class-4-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-projeto-arquitetonico-i",
+    "professor_id": "professor-rebeca",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000436",
+    "day_of_week": 5,
+    "class_group_id": "class-4-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-calculo-numerico",
+    "professor_id": "professor-fabio",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000437",
+    "day_of_week": 5,
+    "class_group_id": "class-4-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-projeto-arquitetonico-i",
+    "professor_id": "professor-adri-lucena",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000438",
+    "day_of_week": 1,
+    "class_group_id": "class-5-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-eletrotecnica",
+    "professor_id": "professor-kamilla",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000439",
+    "day_of_week": 1,
+    "class_group_id": "class-5-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-topografia-ii",
+    "professor_id": "professor-natalia",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000440",
+    "day_of_week": 2,
+    "class_group_id": "class-5-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-seguranca-do-trabalho",
+    "professor_id": "professor-ana-camila",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000441",
+    "day_of_week": 2,
+    "class_group_id": "class-5-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-projeto-arquitetonico-ii",
+    "professor_id": "professor-adri-lucena",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000442",
+    "day_of_week": 3,
+    "class_group_id": "class-5-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-projeto-arquitetonico-ii",
+    "professor_id": "professor-adri-lucena",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000443",
+    "day_of_week": 3,
+    "class_group_id": "class-5-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-materiais-de-construcao-ii",
+    "professor_id": "professor-humberto",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000444",
+    "day_of_week": 4,
+    "class_group_id": "class-5-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-resistencia-dos-materiais-i",
+    "professor_id": "professor-marinaldo",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000445",
+    "day_of_week": 4,
+    "class_group_id": "class-5-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-materiais-de-construcao-ii",
+    "professor_id": "professor-humberto",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000446",
+    "day_of_week": 5,
+    "class_group_id": "class-5-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-resistencia-dos-materiais-i",
+    "professor_id": "professor-marinaldo",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000447",
+    "day_of_week": 5,
+    "class_group_id": "class-5-periodo-eng-civil",
+    "subject_id": "subject-eng-civil-introducao-a-administracao",
+    "professor_id": "professor-dellany",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000448",
+    "day_of_week": 5,
+    "class_group_id": "class-optativas-eng-civil",
+    "subject_id": "subject-eng-civil-portugues-instrumental-i",
+    "professor_id": "professor-rafael",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  },
+  {
+    "id": "schedule-000449",
+    "day_of_week": 5,
+    "class_group_id": "class-optativas-eng-civil",
+    "subject_id": "subject-eng-civil-libras",
+    "professor_id": "professor-priscilla",
+    "room_id": null,
+    "time_block_id": "time-noturno-2030-2210"
+  },
+  {
+    "id": "schedule-000450",
+    "day_of_week": 5,
+    "class_group_id": "class-optativas-2-eng-civil",
+    "subject_id": "subject-eng-civil-libras",
+    "professor_id": "professor-priscilla",
+    "room_id": null,
+    "time_block_id": "time-noturno-1830-2010"
+  }
+]

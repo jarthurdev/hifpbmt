@@ -1,0 +1,470 @@
+.admin-api-access {
+  margin: 1.25rem 0;
+  padding: 1rem 1.25rem;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  background: var(--bg-surface);
+}
+
+.admin-api-access h2 {
+  margin-bottom: 0.4rem;
+  font-size: 1.05rem;
+}
+
+.admin-api-access p {
+  margin: 0.45rem 0;
+  color: var(--text-secondary);
+}
+
+.admin-api-access form {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.65rem;
+}
+
+.admin-api-access input {
+  min-width: 16rem;
+  padding: 0.5rem;
+  border: 1px solid var(--border-medium);
+  border-radius: var(--radius-sm);
+}
+
+.admin-api-access button {
+  padding: 0.5rem 0.75rem;
+  border-radius: var(--radius-sm);
+  background: var(--color-primary);
+  color: white;
+}
+
+/* ==========================================================================
+   SEÇÃO DO PAINEL ADMINISTRATIVO (COORDENAÇÃO ACADÊMICA)
+   ========================================================================== */
+.admin-panel-section {
+  background: var(--bg-surface);
+  border-radius: var(--radius-lg);
+  border: 1.5px solid rgba(27, 94, 32, 0.35);
+  box-shadow: 0 4px 14px rgba(27, 94, 32, 0.08);
+  margin-bottom: 2rem;
+  overflow: hidden;
+  animation: fadeIn 0.35s ease-out;
+}
+
+.admin-section-header {
+  background: linear-gradient(135deg, #0b2e0e 0%, var(--color-primary-dark) 60%, var(--color-primary) 100%);
+  color: #ffffff;
+  padding: 1.25rem 1.5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 1rem;
+}
+
+.admin-header-title-box {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.admin-badge-icon {
+  width: 48px;
+  height: 48px;
+  background: rgba(255, 255, 255, 0.15);
+  border-radius: var(--radius-md);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: #a5d6a7;
+  flex-shrink: 0;
+}
+
+.admin-session-pill {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.18);
+  padding: 2px 8px;
+  border-radius: var(--radius-full);
+  font-size: 0.72rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  color: #dcfce7;
+  letter-spacing: 0.3px;
+  margin-bottom: 4px;
+}
+
+.admin-pulse-dot {
+  width: 7px;
+  height: 7px;
+  border-radius: 50%;
+  background: #4ade80;
+  box-shadow: 0 0 6px #4ade80;
+  animation: pulseDot 1.5s infinite;
+}
+
+.admin-section-title {
+  font-size: 1.25rem;
+  font-weight: 800;
+  color: #ffffff;
+  line-height: 1.2;
+}
+
+.admin-section-subtitle {
+  font-size: 0.84rem;
+  color: #c8e6c9;
+  margin-top: 2px;
+}
+
+.btn-outline-danger {
+  background: rgba(255, 255, 255, 0.1);
+  color: #fecaca;
+  border: 1.5px solid rgba(252, 165, 165, 0.4);
+  padding: 0.55rem 1rem;
+  border-radius: var(--radius-sm);
+  font-size: 0.82rem;
+  font-weight: 600;
+  cursor: pointer;
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  transition: all var(--transition-fast);
+}
+
+.btn-outline-danger:hover {
+  background: #dc2626;
+  border-color: #dc2626;
+  color: #ffffff;
+}
+
+/* Abas de Módulos (Horários, Professores, Sair) */
+.admin-modules-nav {
+  display: flex;
+  background: #f1f5f9;
+  border-bottom: 2px solid var(--border-light);
+  padding: 0.5rem 1.25rem 0;
+  gap: 0.5rem;
+  overflow-x: auto;
+}
+
+.admin-nav-tab {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  padding: 0.75rem 1.25rem;
+  background: transparent;
+  border: none;
+  border-bottom: 3px solid transparent;
+  color: var(--text-secondary);
+  font-weight: 700;
+  font-size: 0.92rem;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.admin-nav-tab:hover {
+  color: var(--color-primary);
+  background: rgba(255, 255, 255, 0.6);
+}
+
+.admin-nav-tab.active {
+  color: var(--color-primary-dark);
+  border-bottom-color: var(--color-primary);
+  background: #ffffff;
+  border-radius: var(--radius-sm) var(--radius-sm) 0 0;
+}
+
+.admin-tab-chip {
+  background: #e2e8f0;
+  color: #475569;
+  font-size: 0.72rem;
+  font-weight: 800;
+  padding: 1px 7px;
+  border-radius: var(--radius-full);
+}
+
+.admin-nav-tab.active .admin-tab-chip {
+  background: var(--color-primary-subtle);
+  color: var(--color-primary-dark);
+}
+
+.admin-nav-tab-exit {
+  margin-left: auto;
+  color: #dc2626;
+}
+
+.admin-nav-tab-exit:hover {
+  background: #fee2e2;
+  color: #b91c1c;
+}
+
+/* Conteúdo dos Módulos */
+.admin-module-content {
+  padding: 1.25rem 1.5rem;
+}
+
+.admin-subactions-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.85rem;
+  border-bottom: 1px solid var(--border-light);
+}
+
+.admin-subactions-left {
+  display: flex;
+  gap: 0.5rem;
+  flex-wrap: wrap;
+}
+
+.admin-subaction-btn {
+  display: inline-flex;
+  align-items: center;
+  gap: 6px;
+  padding: 0.55rem 1.1rem;
+  border-radius: var(--radius-sm);
+  background: var(--bg-muted);
+  border: 1px solid var(--border-medium);
+  font-size: 0.85rem;
+  font-weight: 700;
+  color: var(--text-secondary);
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.admin-subaction-btn:hover {
+  background: #e2e8f0;
+  color: var(--text-main);
+}
+
+.admin-subaction-btn.active {
+  background: var(--color-primary);
+  border-color: var(--color-primary);
+  color: #ffffff;
+  box-shadow: 0 2px 6px rgba(27, 94, 32, 0.25);
+}
+
+.admin-info-badge {
+  display: inline-flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 0.8rem;
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+/* Sub-views */
+.admin-subview {
+  animation: fadeIn 0.25s ease-out;
+}
+
+.admin-card-inner {
+  background: #ffffff;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-md);
+  padding: 1.25rem;
+}
+
+.admin-card-header {
+  margin-bottom: 1.25rem;
+}
+
+.admin-card-title {
+  font-size: 1.1rem;
+  font-weight: 800;
+  color: var(--text-main);
+}
+
+.admin-card-desc {
+  font-size: 0.85rem;
+  color: var(--text-secondary);
+  margin-top: 2px;
+}
+
+.admin-form-actions {
+  display: flex;
+  justify-content: flex-end;
+  gap: 0.75rem;
+  margin-top: 1.25rem;
+  padding-top: 1rem;
+  border-top: 1px solid var(--border-light);
+}
+
+/* Caixa de Choque de Horários */
+.choque-conflict-box {
+  background: #fff1f2;
+  border: 1.5px solid #f43f5e;
+  border-radius: var(--radius-md);
+  padding: 1rem 1.25rem;
+  margin-bottom: 1.25rem;
+  color: #881337;
+  animation: fadeIn 0.25s ease-out;
+}
+
+.choque-conflict-header {
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+  font-weight: 800;
+  font-size: 0.95rem;
+  color: #9f1239;
+  margin-bottom: 0.5rem;
+}
+
+.choque-conflict-list {
+  display: flex;
+  flex-direction: column;
+  gap: 0.4rem;
+  font-size: 0.86rem;
+  line-height: 1.45;
+}
+
+.choque-conflict-item {
+  display: flex;
+  align-items: flex-start;
+  gap: 6px;
+  background: rgba(255, 255, 255, 0.75);
+  border-radius: var(--radius-sm);
+  padding: 0.5rem 0.75rem;
+  border-left: 3px solid #e11d48;
+}
+
+.choque-badge-type {
+  font-size: 0.72rem;
+  font-weight: 800;
+  text-transform: uppercase;
+  background: #ffe4e6;
+  color: #be123c;
+  padding: 1px 6px;
+  border-radius: 3px;
+  white-space: nowrap;
+}
+
+/* Tabelas Gerenciais do Admin */
+.admin-table-toolbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.admin-search-wrap {
+  position: relative;
+  width: 320px;
+  max-width: 100%;
+}
+
+.admin-table-filters {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.admin-table-responsive {
+  overflow-x: auto;
+  border: 1px solid var(--border-light);
+  border-radius: var(--radius-sm);
+}
+
+.admin-data-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.85rem;
+  text-align: left;
+}
+
+.admin-data-table th {
+  background: #f8fafc;
+  color: var(--text-main);
+  font-weight: 700;
+  padding: 0.75rem 1rem;
+  border-bottom: 2px solid var(--border-medium);
+  white-space: nowrap;
+}
+
+.admin-data-table td {
+  padding: 0.7rem 1rem;
+  border-bottom: 1px solid var(--border-light);
+  vertical-align: middle;
+}
+
+.admin-data-table tr:hover {
+  background: #f8fafc;
+}
+
+.text-right {
+  text-align: right;
+}
+
+.btn-delete-row {
+  display: inline-flex;
+  align-items: center;
+  gap: 4px;
+  padding: 4px 9px;
+  background: #fee2e2;
+  color: #b91c1c;
+  border: 1px solid #fca5a5;
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-delete-row:hover {
+  background: #dc2626;
+  color: #ffffff;
+  border-color: #dc2626;
+}
+
+.btn-edit-row {
+  display: inline-flex;
+  align-items: center;
+  margin-right: 4px;
+  padding: 4px 9px;
+  background: #fef3c7;
+  color: #92400e;
+  border: 1px solid #f59e0b;
+  border-radius: var(--radius-sm);
+  font-size: 0.78rem;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all var(--transition-fast);
+}
+
+.btn-edit-row:hover {
+  background: #f59e0b;
+  color: #ffffff;
+  border-color: #d97706;
+  box-shadow: 0 2px 6px rgba(217, 119, 6, 0.25);
+}
+
+.btn-edit-row:focus-visible {
+  outline: 3px solid rgba(245, 158, 11, 0.35);
+  outline-offset: 2px;
+}
+
+.admin-discipline-workload {
+  max-width: 90px;
+}
+
+.admin-discipline-tag {
+  min-width: 120px;
+}
+
+.admin-discipline-teacher {
+  min-width: 180px;
+}
+
+.admin-class-badge {
+  font-weight: 700;
+  background: var(--color-primary-subtle);
+  color: var(--color-primary-dark);
+  padding: 2px 7px;
+  border-radius: 4px;
+  font-size: 0.75rem;
+}

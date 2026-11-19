@@ -1,0 +1,242 @@
+[
+  {
+    "id": "class-1-ano-ted-a",
+    "course_id": "ted",
+    "name": "1º ANO TED A",
+    "semester_period": "1º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-1-ano-ted-b",
+    "course_id": "ted",
+    "name": "1º ANO TED B",
+    "semester_period": "1º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-2-ano-ted",
+    "course_id": "ted",
+    "name": "2º ANO TED",
+    "semester_period": "2º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-3-ano-ted",
+    "course_id": "ted",
+    "name": "3º ANO TED",
+    "semester_period": "3º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-1-ano-informatica-a",
+    "course_id": "informatica",
+    "name": "1º ANO INFORMÁTICA A",
+    "semester_period": "1º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-1-ano-informatica-b",
+    "course_id": "informatica",
+    "name": "1º ANO INFORMÁTICA B",
+    "semester_period": "1º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-2-ano-informatica-a",
+    "course_id": "informatica",
+    "name": "2º ANO INFORMÁTICA A",
+    "semester_period": "2º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-2-ano-informatica-b",
+    "course_id": "informatica",
+    "name": "2º ANO INFORMÁTICA B",
+    "semester_period": "2º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-3-ano-informatica-a",
+    "course_id": "informatica",
+    "name": "3º ANO INFORMÁTICA A",
+    "semester_period": "3º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-3-ano-informatica-b",
+    "course_id": "informatica",
+    "name": "3º ANO INFORMÁTICA B",
+    "semester_period": "3º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-1-ano-ima",
+    "course_id": "im",
+    "name": "1º ANO IMA",
+    "semester_period": "1º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-1-ano-imb",
+    "course_id": "im",
+    "name": "1º ANO IMB",
+    "semester_period": "1º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-2-ano-im-a",
+    "course_id": "im",
+    "name": "2º ANO IM A",
+    "semester_period": "2º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-2-ano-im-b",
+    "course_id": "im",
+    "name": "2º ANO IM B",
+    "semester_period": "2º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-3-ano-im",
+    "course_id": "im",
+    "name": "3º ANO IM",
+    "semester_period": "3º ano",
+    "shift": "matutino",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-6-periodo-tce",
+    "course_id": "tce",
+    "name": "6º PERIODO - TCE",
+    "semester_period": "6º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-7-periodo-tce",
+    "course_id": "tce",
+    "name": "7º PERIODO - TCE",
+    "semester_period": "7º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-1-periodo-ads",
+    "course_id": "ads",
+    "name": "1º PERIODO - ADS",
+    "semester_period": "1º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-2-periodo-ads",
+    "course_id": "ads",
+    "name": "2º PERIODO - ADS",
+    "semester_period": "2º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-3-periodo-ads",
+    "course_id": "ads",
+    "name": "3º PERIODO - ADS",
+    "semester_period": "3º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-4-periodo-ads",
+    "course_id": "ads",
+    "name": "4º PERIODO - ADS",
+    "semester_period": "4º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-5-periodo-ads",
+    "course_id": "ads",
+    "name": "5º PERIODO - ADS",
+    "semester_period": "5º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-6-periodo-ads",
+    "course_id": "ads",
+    "name": "6º PERIODO - ADS",
+    "semester_period": "6º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-1-periodo-eng-civil",
+    "course_id": "eng-civil",
+    "name": "1º PERIODO - ENG. CIVIL",
+    "semester_period": "1º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-2-periodo-eng-civil",
+    "course_id": "eng-civil",
+    "name": "2º PERIODO - ENG CIVIL",
+    "semester_period": "2º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-3-periodo-eng-civil",
+    "course_id": "eng-civil",
+    "name": "3º PERIODO - ENG CIVIL",
+    "semester_period": "3º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-4-periodo-eng-civil",
+    "course_id": "eng-civil",
+    "name": "4º PERIODO - ENG CIVIL",
+    "semester_period": "4º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-5-periodo-eng-civil",
+    "course_id": "eng-civil",
+    "name": "5º PERÍODO - ENG. CIVIL",
+    "semester_period": "5º período",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-optativas-eng-civil",
+    "course_id": "eng-civil",
+    "name": "Optativas - ENG CIVIL",
+    "semester_period": "Optativas",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  },
+  {
+    "id": "class-optativas-2-eng-civil",
+    "course_id": "eng-civil",
+    "name": "Optativas 2 - ENG CIVIL",
+    "semester_period": "Optativas",
+    "shift": "noturno",
+    "academic_term": "2026.2"
+  }
+]

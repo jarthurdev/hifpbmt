@@ -1,0 +1,829 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Administração — HIFPB Monteiro 2026.2</title>
+  
+  <meta name="description" content="Sistema de Consulta de Horários Acadêmicos do IFPB Campus Monteiro. Consulte horários por turma, curso ou professor.">
+  <meta name="author" content="IFPB Campus Monteiro - Demonstração">
+  
+  <!-- Favicon SVG -->
+  <link rel="icon" type="image/svg+xml" href="assets/images/favicon.svg">
+  
+  <!-- Folha de Estilos Principal -->
+  <link rel="stylesheet" href="css/base.css">
+  <link rel="stylesheet" href="css/layout.css">
+  <link rel="stylesheet" href="css/admin.css">
+  <link rel="stylesheet" href="css/modals.css">
+  <link rel="stylesheet" href="css/responsive.css">
+</head>
+<body>
+
+  <!-- Topbar Institucional Governamental / IFPB -->
+  <aside class="gov-topbar" aria-label="Barra institucional">
+    <div class="container gov-container">
+      <div class="gov-left">
+        <span class="gov-flag" aria-hidden="true">🟢🟡🔵</span>
+        <span class="gov-title">Ministério da Educação — Instituto Federal da Paraíba</span>
+      </div>
+      <div class="gov-right">
+        <a href="#conteudo-principal" class="skip-link">Ir para o conteúdo</a>
+        <span class="campus-pill">Campus Monteiro</span>
+        <a href="index.html" class="gov-admin-link">Voltar para consulta</a>
+      </div>
+    </div>
+  </aside>
+
+  <!-- Cabeçalho Principal com Identidade Visual -->
+  <header class="app-header" role="banner">
+    <div class="container header-container">
+      <div class="brand-group">
+        <a href="index.html" class="brand-logo-link" title="Voltar ao início do HIFPB Monteiro">
+          <img src="assets/images/ifpb-logo.svg" alt="Logotipo do Instituto Federal da Paraíba - Campus Monteiro" class="brand-logo" width="220" height="52">
+        </a>
+        <div class="brand-divider" aria-hidden="true"></div>
+        <div class="brand-titles">
+          <h1 class="system-title">Horário Acadêmico</h1>
+          <p class="system-subtitle">HIFPB Monteiro • Consulta Unificada de Horários</p>
+        </div>
+      </div>
+
+      <div class="header-metadata">
+        <div class="semester-badge">
+          <span class="semester-label">Semestre Letivo</span>
+          <span class="semester-value">2026.2</span>
+        </div>
+        <!-- Área de Acesso / Menu do Administrador na Navegação -->
+        <nav class="admin-nav-area" aria-label="Acesso administrativo">
+          <a href="index.html" class="btn-nav-admin">Voltar para consulta</a>
+
+        </nav>
+      </div>
+    </div>
+  </header>
+
+  <!-- Conteúdo Principal -->
+  <main id="conteudo-principal" class="main-content" role="main">
+    <div class="container">
+
+      <!-- BREADCRUMBS E STATUS META -->
+      <nav class="breadcrumb-bar" aria-label="Navegação estrutural">
+        <ol class="breadcrumb-list">
+          <li class="breadcrumb-item"><a href="#" id="breadcrumbHome">Início</a></li>
+          <li class="breadcrumb-item separator" aria-hidden="true">›</li>
+          <li class="breadcrumb-item active" id="breadcrumbCurrent">Consulta Geral</li>
+        </ol>
+
+        <div class="top-status-meta">
+          <span class="update-label">
+            <svg class="icon-inline" viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <polyline points="12 6 12 12 16 14"></polyline>
+            </svg>
+            Última atualização: <strong id="lastUpdateText">16/11/2026</strong>
+          </span>
+        </div>
+      </nav>
+
+      <!-- ========================================================== -->
+      <!-- SEÇÃO DO ADMINISTRADOR (HORÁRIOS, PROFESSORES E SAIR)      -->
+      <!-- ========================================================== -->      <section class="admin-panel-section" id="adminPanelSection" aria-labelledby="adminPanelHeading">
+        <header class="admin-section-header">
+          <div class="admin-header-title-box">
+            <div class="admin-badge-icon">
+              <svg viewBox="0 0 24 24" width="24" height="24" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M12 2L2 7l10 5 10-5-10-5z"></path>
+                <path d="M2 17l10 5 10-5"></path>
+                <path d="M2 12l10 5 10-5"></path>
+              </svg>
+            </div>
+            <div>
+              <div class="admin-session-pill">
+                <span class="admin-pulse-dot" aria-hidden="true"></span>
+                <span>Painel administrativo</span>
+              </div>
+              <h2 id="adminPanelHeading" class="admin-section-title">Painel de Gestão — Campus Monteiro</h2>
+              <p class="admin-section-subtitle">Gerencie disciplinas, horários e professores, com controle de choques de alocação.</p>
+            </div>
+          </div>
+          <div class="admin-header-actions">
+            <button type="button" class="btn btn-outline-danger" id="btnAdminSectionLogout" title="Encerrar sessão de administrador">
+              <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                <path d="M9 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h4"></path>
+                <polyline points="16 17 21 12 16 7"></polyline>
+                <line x1="21" y1="12" x2="9" y2="12"></line>
+              </svg>
+              Sair da Administração
+            </button>
+          </div>
+        </header>
+
+        <!-- Navegação Primária das Funções Administrativas -->
+        <div class="admin-modules-nav" role="tablist" aria-label="Módulos administrativos">
+          <button type="button" class="admin-nav-tab active" role="tab" id="adminTabBtnHorarios" aria-selected="true" aria-controls="adminPanelHorarios" data-admin-tab="horarios">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect>
+              <line x1="16" y1="2" x2="16" y2="6"></line>
+              <line x1="8" y1="2" x2="8" y2="6"></line>
+              <line x1="3" y1="10" x2="21" y2="10"></line>
+            </svg>
+            <span>Horários</span>
+            <span class="admin-tab-chip" id="adminCountSchedules">34</span>
+          </button>
+
+          <button type="button" class="admin-nav-tab" role="tab" id="adminTabBtnProfessores" aria-selected="false" aria-controls="adminPanelProfessores" data-admin-tab="professores">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="7" r="4"></circle>
+              <path d="M5.5 21v-2a6.5 6.5 0 0 1 13 0v2"></path>
+              <line x1="12" y1="11" x2="12" y2="15"></line>
+            </svg>
+            <span>Professores</span>
+            <span class="admin-tab-chip" id="adminCountTeachers">6</span>
+          </button>
+
+          <button type="button" class="admin-nav-tab" role="tab" id="adminTabBtnDisciplinas" aria-selected="false" aria-controls="adminPanelDisciplinas" data-admin-tab="disciplinas">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M4 19.5A2.5 2.5 0 0 1 6.5 17H20"></path>
+              <path d="M6.5 2H20v20H6.5A2.5 2.5 0 0 1 4 19.5v-15A2.5 2.5 0 0 1 6.5 2z"></path>
+            </svg>
+            <span>Disciplinas</span>
+            <span class="admin-tab-chip" id="adminCountDisciplines">12</span>
+          </button>
+
+        </div>
+
+        <div class="admin-module-content" id="adminPanelDisciplinas" role="tabpanel" aria-labelledby="adminTabBtnDisciplinas" style="display: none;">
+          <div class="admin-subactions-toolbar">
+            <div class="admin-subactions-left">
+              <button type="button" class="admin-subaction-btn active" id="btnAdminShowNovaDisciplina">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                Nova Disciplina
+              </button>
+              <button type="button" class="admin-subaction-btn" id="btnAdminShowVerDisciplinas">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="8" y1="6" x2="21" y2="6"></line>
+                  <line x1="8" y1="12" x2="21" y2="12"></line>
+                  <line x1="8" y1="18" x2="21" y2="18"></line>
+                  <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                  <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                  <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                </svg>
+                Ver Disciplinas
+              </button>
+            </div>
+            <div class="admin-subactions-right">
+              <span class="admin-info-badge">Cadastre disciplinas e indique o professor responsável.</span>
+            </div>
+          </div>
+
+          <div class="admin-subview" id="adminSubViewNovaDisciplina">
+            <div class="admin-card-inner">
+              <div class="admin-card-header">
+                <h3 class="admin-card-title">Cadastrar Nova Disciplina</h3>
+                <p class="admin-card-desc">A disciplina ficará disponível para associação a uma turma e a um horário acadêmico.</p>
+              </div>
+              <form id="sectionAddDisciplineForm" class="admin-form" novalidate>
+                <input type="hidden" id="secDisciplineIdInput">
+                <div class="form-row-2">
+                  <div class="form-group">
+                    <label for="secDisciplineNameInput" class="form-label">Nome da Disciplina <span class="required">*</span></label>
+                    <input type="text" id="secDisciplineNameInput" class="form-control" placeholder="Ex.: Programação para Dispositivos Móveis" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="secDisciplineCodeInput" class="form-label">Código <span class="required">*</span></label>
+                    <input type="text" id="secDisciplineCodeInput" class="form-control" placeholder="Ex.: INF001" required>
+                  </div>
+                </div>
+                <div class="form-row-2">
+                  <div class="form-group">
+                    <label for="secDisciplineWorkloadInput" class="form-label">Carga horária (horas)</label>
+                    <input type="number" id="secDisciplineWorkloadInput" class="form-control" min="1" step="1" placeholder="Ex.: 80">
+                  </div>
+                  <div class="form-group">
+                    <label for="secDisciplineCourseSelect" class="form-label">Curso <span class="required">*</span></label>
+                    <select id="secDisciplineCourseSelect" class="form-control" required></select>
+                  </div>
+                </div>
+                <div class="admin-form-actions">
+                  <button type="reset" class="btn btn-secondary">Limpar Campos</button>
+                  <button type="submit" class="btn btn-primary" id="btnSecDisciplineSubmit">Cadastrar Disciplina</button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <div class="admin-subview" id="adminSubViewVerDisciplinas" style="display: none;">
+            <div class="admin-card-inner">
+              <div class="admin-table-toolbar">
+                <div class="admin-search-wrap">
+                  <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  <input type="text" id="adminDisciplineSearchInput" class="input-clean" placeholder="Filtrar por disciplina, área ou professor...">
+                </div>
+              </div>
+              <div class="admin-table-responsive">
+                <table class="admin-data-table" id="adminDisciplinesTable">
+                  <thead>
+                    <tr>
+                      <th>Disciplina</th>
+                      <th>Carga horária</th>
+                      <th>Código</th>
+                      <th>Curso</th>
+                      <th class="text-right">Ações</th>
+                    </tr>
+                  </thead>
+                  <tbody id="adminDisciplinesTableBody"></tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================== -->
+        <!-- MÓDULO 1: GESTÃO DE HORÁRIOS ACADÊMICOS                  -->
+        <!-- ======================================================== -->
+        <div class="admin-module-content" id="adminPanelHorarios" role="tabpanel" aria-labelledby="adminTabBtnHorarios">
+          <div class="admin-subactions-toolbar">
+            <div class="admin-subactions-left">
+              <button type="button" class="admin-subaction-btn active" id="btnAdminShowNovoHorario">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                Novo Horário
+              </button>
+              <button type="button" class="admin-subaction-btn" id="btnAdminShowVerHorarios">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <line x1="8" y1="6" x2="21" y2="6"></line>
+                  <line x1="8" y1="12" x2="21" y2="12"></line>
+                  <line x1="8" y1="18" x2="21" y2="18"></line>
+                  <line x1="3" y1="6" x2="3.01" y2="6"></line>
+                  <line x1="3" y1="12" x2="3.01" y2="12"></line>
+                  <line x1="3" y1="18" x2="3.01" y2="18"></line>
+                </svg>
+                Ver / Remover Horários
+              </button>
+            </div>
+            <div class="admin-subactions-right">
+              <span class="admin-info-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                Verificação automática de choque de docentes e turmas ativa
+              </span>
+            </div>
+          </div>
+
+          <!-- SUB-PAINEL 1.1: FORMULÁRIO DE NOVO HORÁRIO (COM VERIFICAÇÃO DE CHOQUE) -->
+          <div class="admin-subview" id="adminSubViewNovoHorario">
+            <div class="admin-card-inner">
+              <div class="admin-card-header">
+                <h3 class="admin-card-title">Cadastrar Novo Horário Acadêmico</h3>
+                <p class="admin-card-desc">Informe a disciplina, dia e faixa de horário. O sistema validará se há colisão com outros horários.</p>
+              </div>
+
+              <!-- Caixa de Alerta de Choque de Horários -->
+              <div id="sectionSchedConflictAlert" class="choque-conflict-box" style="display: none;" role="alert">
+                <!-- Conteúdo do choque injetado via JS -->
+              </div>
+
+              <form id="sectionAddScheduleForm" class="admin-form" novalidate>
+                <input type="hidden" id="secScheduleIdInput">
+                <div class="form-group">
+                  <label for="secSchedClassSelect" class="form-label">Turma <span class="required">*</span></label>
+                  <select id="secSchedClassSelect" data-catalog="class-groups" class="form-control" required></select>
+                </div>
+
+                <div class="form-row-2">
+                  <div class="form-group">
+                    <label for="secSchedDisciplineSelect" class="form-label">Disciplina <span class="required">*</span></label>
+                    <select id="secSchedDisciplineSelect" data-catalog="subjects" class="form-control" required></select>
+                  </div>
+                  <div class="form-group">
+                    <label for="secSchedTeacherSelect" class="form-label">Docente / Professor(a) <span class="required">*</span></label>
+                    <select id="secSchedTeacherSelect" data-catalog="professors" class="form-control" required></select>
+                  </div>
+                </div>
+
+                <div class="form-row-2">
+                  <div class="form-group">
+                    <label for="secSchedDaySelect" class="form-label">Dia da Semana <span class="required">*</span></label>
+                    <select id="secSchedDaySelect" class="form-control" required>
+                      <option value="1">Segunda-feira</option>
+                      <option value="2">Terça-feira</option>
+                      <option value="3">Quarta-feira</option>
+                      <option value="4">Quinta-feira</option>
+                      <option value="5">Sexta-feira</option>
+                      <option value="6">Sábado</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-row-3">
+                  <div class="form-group">
+                    <label for="secSchedShiftSelect" class="form-label">Turno <span class="required">*</span></label>
+                    <select id="secSchedShiftSelect" class="form-control" required>
+                      <option value="matutino">Matutino</option>
+                      <option value="vespertino">Vespertino</option>
+                      <option value="noturno">Noturno</option>
+                    </select>
+                  </div>
+                  <div class="form-group">
+                    <label for="secSchedRoomSelect" class="form-label">Sala (opcional)</label>
+                    <select id="secSchedRoomSelect" data-catalog="rooms" class="form-control"></select>
+                  </div>
+                  <div class="form-group">
+                    <label for="secSchedSlotSelect" class="form-label">Faixa de Horário <span class="required">*</span></label>
+                    <select id="secSchedSlotSelect" class="form-control" required></select>
+                  </div>
+                  <div class="form-group">
+                    <label for="secSchedThemeSelect" class="form-label">Cor Visual do Card</label>
+                    <select id="secSchedThemeSelect" class="form-control">
+                      <option value="emerald">Verde Esmeralda (Web / Dev)</option>
+                      <option value="cyan">Ciano (Bancos de Dados)</option>
+                      <option value="indigo">Índigo (Engenharia / Gestão)</option>
+                      <option value="purple">Roxo (Matemática / Lógica)</option>
+                      <option value="amber">Âmbar (Algoritmos / Estruturas)</option>
+                      <option value="slate">Cinza Ardósia (Sistemas / Infra)</option>
+                      <option value="rose">Rosa / Coral (Resistência / Obras)</option>
+                      <option value="orange">Laranja (Construção / Prática)</option>
+                      <option value="blue">Azul (Cálculo / Teoria)</option>
+                      <option value="teal">Verde-azulado (Tecnologias)</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="secSchedObsInput" class="form-label">Observações Metodológicas e Recursos Didáticos</label>
+                  <textarea id="secSchedObsInput" class="form-control textarea-clean" rows="2" placeholder="Ex.: Aulas práticas de programação com foco em projetos reais..."></textarea>
+                </div>
+
+                <div class="admin-form-actions">
+                  <button type="reset" class="btn btn-secondary" id="btnSecSchedReset">Limpar Campos</button>
+                  <button type="submit" class="btn btn-primary" id="btnSecSchedSubmit">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+                      <polyline points="17 21 17 13 7 13 7 21"></polyline>
+                      <polyline points="7 3 7 8 15 8"></polyline>
+                    </svg>
+                    Verificar e Salvar Horário
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- SUB-PAINEL 1.2: VER E REMOVER HORÁRIOS -->
+          <div class="admin-subview" id="adminSubViewVerHorarios" style="display: none;">
+            <div class="admin-card-inner">
+              <div class="admin-table-toolbar">
+                <div class="admin-search-wrap">
+                  <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  <input type="text" id="adminSchedSearchInput" class="input-clean" placeholder="Filtrar por disciplina, professor ou turma...">
+                </div>
+                <div class="admin-table-filters">
+                  <select id="adminSchedFilterDay" class="filter-select">
+                    <option value="all">Todos os Dias</option>
+                    <option value="1">Segunda-feira</option>
+                    <option value="2">Terça-feira</option>
+                    <option value="3">Quarta-feira</option>
+                    <option value="4">Quinta-feira</option>
+                    <option value="5">Sexta-feira</option>
+                    <option value="6">Sábado</option>
+                  </select>
+                  <select id="adminSchedFilterShift" class="filter-select">
+                    <option value="all">Todos os Turnos</option>
+                    <option value="matutino">Matutino</option>
+                    <option value="vespertino">Vespertino</option>
+                    <option value="noturno">Noturno</option>
+                  </select>
+                </div>
+              </div>
+
+              <div class="admin-table-responsive">
+                <table class="admin-data-table" id="adminSchedulesTable">
+                  <thead>
+                    <tr>
+                      <th>Dia & Turno</th>
+                      <th>Horário</th>
+                      <th>Disciplina</th>
+                      <th>Turma / Curso</th>
+                      <th>Docente</th>
+                      <th class="text-right">Ação</th>
+                    </tr>
+                  </thead>
+                  <tbody id="adminScheduleRows">
+                    <!-- Preenchido via JavaScript -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- ======================================================== -->
+        <!-- MÓDULO 2: GESTÃO DE PROFESSORES (DOCENTES)               -->
+        <!-- ======================================================== -->
+        <div class="admin-module-content" id="adminPanelProfessores" role="tabpanel" aria-labelledby="adminTabBtnProfessores" style="display: none;">
+          <div class="admin-subactions-toolbar">
+            <div class="admin-subactions-left">
+              <button type="button" class="admin-subaction-btn active" id="btnAdminShowNovoProfessor">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2.5">
+                  <line x1="12" y1="5" x2="12" y2="19"></line>
+                  <line x1="5" y1="12" x2="19" y2="12"></line>
+                </svg>
+                Novo Professor
+              </button>
+              <button type="button" class="admin-subaction-btn" id="btnAdminShowVerProfessores">
+                <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                  <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                  <circle cx="9" cy="7" r="4"></circle>
+                  <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+                  <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
+                </svg>
+                Ver / Remover Professores
+              </button>
+            </div>
+            <div class="admin-subactions-right">
+              <span class="admin-info-badge">
+                <svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2">
+                  <circle cx="12" cy="12" r="10"></circle>
+                  <line x1="12" y1="16" x2="12" y2="12"></line>
+                  <line x1="12" y1="8" x2="12.01" y2="8"></line>
+                </svg>
+                Corpo docente do Campus Monteiro
+              </span>
+            </div>
+          </div>
+
+          <!-- SUB-PAINEL 2.1: NOVO PROFESSOR -->
+          <div class="admin-subview" id="adminSubViewNovoProfessor">
+            <div class="admin-card-inner">
+              <div class="admin-card-header">
+                <h3 class="admin-card-title">Cadastrar Novo Professor(a)</h3>
+                <p class="admin-card-desc">Cadastre novos docentes para alocação nas matrizes horárias do IFPB Campus Monteiro.</p>
+              </div>
+
+              <form id="sectionAddTeacherForm" class="admin-form" novalidate>
+                <input type="hidden" id="secTeacherIdInput">
+                <div class="form-row-2">
+                  <div class="form-group">
+                    <label for="secTeacherNameInput" class="form-label">Nome Completo do Docente <span class="required">*</span></label>
+                    <input type="text" id="secTeacherNameInput" class="form-control" placeholder="Ex.: Lucas Gabriel da Silva" required>
+                  </div>
+                  <div class="form-group">
+                    <label for="secTeacherSiapeInput" class="form-label">SIAPE (opcional)</label>
+                    <input type="text" id="secTeacherSiapeInput" class="form-control">
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="secTeacherEmailInput" class="form-label">E-mail Institucional <span class="required">*</span></label>
+                  <input type="email" id="secTeacherEmailInput" class="form-control" placeholder="Ex.: lucas.silva@ifpb.edu.br" required>
+                </div>
+
+                <div class="form-group">
+                  <label for="secTeacherAreasInput" class="form-label">Áreas de Atuação / Disciplinas (separadas por vírgula)</label>
+                  <input type="text" id="secTeacherAreasInput" class="form-control" placeholder="Ex.: Inteligência Artificial, Programação Web, Algoritmos">
+                </div>
+
+                <div class="admin-form-actions">
+                  <button type="reset" class="btn btn-secondary">Limpar Campos</button>
+                  <button type="submit" class="btn btn-primary" id="btnSecTeacherSubmit">
+                    <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                      <path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+                      <circle cx="8.5" cy="7" r="4"></circle>
+                      <line x1="20" y1="8" x2="20" y2="14"></line>
+                      <line x1="23" y1="11" x2="17" y2="11"></line>
+                    </svg>
+                    Cadastrar Docente
+                  </button>
+                </div>
+              </form>
+            </div>
+          </div>
+
+          <!-- SUB-PAINEL 2.2: VER E REMOVER PROFESSORES -->
+          <div class="admin-subview" id="adminSubViewVerProfessores" style="display: none;">
+            <div class="admin-card-inner">
+              <div class="admin-table-toolbar">
+                <div class="admin-search-wrap">
+                  <svg class="search-icon" viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+                    <circle cx="11" cy="11" r="8"></circle>
+                    <line x1="21" y1="21" x2="16.65" y2="16.65"></line>
+                  </svg>
+                  <input type="text" id="adminTeacherSearchInput" class="input-clean" placeholder="Pesquisar docente por nome, departamento ou e-mail...">
+                </div>
+              </div>
+
+              <div class="admin-table-responsive">
+                <table class="admin-data-table" id="adminTeachersTable">
+                  <thead>
+                    <tr>
+                      <th>Docente</th>
+                      <th>SIAPE</th>
+                      <th>Situação</th>
+                      <th>E-mail</th>
+                      <th>Aulas Alocadas</th>
+                      <th class="text-right">Ação</th>
+                    </tr>
+                  </thead>
+                  <tbody id="adminProfessorRows">
+                    <!-- Preenchido via JavaScript -->
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- SEÇÃO 1: NAVEGAÇÃO ENTRE OS 4 TIPOS DE CONSULTA -->
+      <section class="admin-api-access" aria-labelledby="adminApiHeading">
+        <h2 id="adminApiHeading">Conexão com a API</h2>
+        <p>As alterações são persistidas na API. Operações de escrita exigem uma sessão administrativa válida.</p>
+        <p id="adminApiStatus" role="status" aria-live="polite">Carregando dados da API...</p>
+      </section>
+      <section class="admin-api-access" aria-labelledby="catalogManagementHeading">
+        <h2 id="catalogManagementHeading">Gestão de Catálogos</h2>
+        <details>
+          <summary>Cursos</summary>
+          <form id="courseForm" class="admin-form">
+            <input id="courseEditId" type="hidden">
+            <div class="form-row-2">
+              <div class="form-group"><label class="form-label" for="courseName">Nome</label><input id="courseName" class="form-control" required></div>
+              <div class="form-group"><label class="form-label" for="courseCode">Código</label><input id="courseCode" class="form-control" required></div>
+            </div>
+            <div class="form-group"><label class="form-label" for="courseLevel">Nível</label><input id="courseLevel" class="form-control" required></div>
+            <button type="submit" class="btn btn-primary">Salvar curso</button>
+          </form>
+          <table class="admin-data-table"><thead><tr><th>Nome</th><th>Código</th><th>Nível</th><th>Ações</th></tr></thead><tbody id="adminCourseRows"></tbody></table>
+        </details>
+        <details>
+          <summary>Turmas</summary>
+          <form id="classGroupForm" class="admin-form">
+            <input id="classGroupEditId" type="hidden">
+            <div class="form-row-2">
+              <div class="form-group"><label class="form-label" for="classGroupCourse">Curso</label><select id="classGroupCourse" class="form-control" required></select></div>
+              <div class="form-group"><label class="form-label" for="classGroupName">Nome</label><input id="classGroupName" class="form-control" required></div>
+            </div>
+            <div class="form-row-3">
+              <div class="form-group"><label class="form-label" for="classGroupPeriod">Período</label><input id="classGroupPeriod" class="form-control" required></div>
+              <div class="form-group"><label class="form-label" for="classGroupShift">Turno</label><input id="classGroupShift" class="form-control" required></div>
+              <div class="form-group"><label class="form-label" for="classGroupTerm">Semestre letivo</label><input id="classGroupTerm" class="form-control" required></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar turma</button>
+          </form>
+          <table class="admin-data-table"><thead><tr><th>Turma</th><th>Curso</th><th>Período</th><th>Turno</th><th>Semestre</th><th>Ações</th></tr></thead><tbody id="adminClassGroupRows"></tbody></table>
+        </details>
+        <details>
+          <summary>Salas</summary>
+          <form id="roomForm" class="admin-form">
+            <input id="roomEditId" type="hidden">
+            <div class="form-row-2">
+              <div class="form-group"><label class="form-label" for="roomName">Nome</label><input id="roomName" class="form-control" required></div>
+              <div class="form-group"><label class="form-label" for="roomBlock">Bloco</label><input id="roomBlock" class="form-control"></div>
+            </div>
+            <div class="form-row-2">
+              <div class="form-group"><label class="form-label" for="roomType">Tipo</label><input id="roomType" class="form-control"></div>
+              <div class="form-group"><label class="form-label" for="roomCapacity">Capacidade</label><input id="roomCapacity" class="form-control" type="number" min="1"></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar sala</button>
+          </form>
+          <table class="admin-data-table"><thead><tr><th>Nome</th><th>Bloco</th><th>Tipo</th><th>Capacidade</th><th>Ações</th></tr></thead><tbody id="adminRoomRows"></tbody></table>
+        </details>
+        <details>
+          <summary>Faixas de horário</summary>
+          <form id="timeBlockForm" class="admin-form">
+            <input id="timeBlockEditId" type="hidden">
+            <div class="form-row-2">
+              <div class="form-group"><label class="form-label" for="timeBlockShift">Turno</label><input id="timeBlockShift" class="form-control" required></div>
+              <div class="form-group"><label class="form-label" for="timeBlockOrder">Ordem</label><input id="timeBlockOrder" class="form-control" type="number" min="0" required></div>
+            </div>
+            <div class="form-row-2">
+              <div class="form-group"><label class="form-label" for="timeBlockStart">Início</label><input id="timeBlockStart" class="form-control" type="time" required></div>
+              <div class="form-group"><label class="form-label" for="timeBlockEnd">Fim</label><input id="timeBlockEnd" class="form-control" type="time" required></div>
+            </div>
+            <button type="submit" class="btn btn-primary">Salvar faixa</button>
+          </form>
+          <table class="admin-data-table"><thead><tr><th>Turno</th><th>Ordem</th><th>Início</th><th>Fim</th><th>Ações</th></tr></thead><tbody id="adminTimeBlockRows"></tbody></table>
+        </details>
+      </section>
+      <section class="admin-api-access" aria-labelledby="scheduleImportHeading">
+        <h2 id="scheduleImportHeading">Importar Grade (JSON/CSV)</h2>
+        <p>O JSON deve conter o curso, semestre, catálogos referenciados e os horários. O CSV deve conter as colunas dayOfWeek,classGroupId,subjectId,professorId,roomId,timeBlockId.</p>
+        <form id="scheduleImportForm" class="admin-form">
+          <div class="form-row-2">
+            <div class="form-group">
+              <label for="scheduleImportCourseId" class="form-label">ID do curso (para CSV)</label>
+              <select id="scheduleImportCourseId" class="form-control"></select>
+            </div>
+            <div class="form-group">
+              <label for="scheduleImportTerm" class="form-label">Semestre letivo (para CSV)</label>
+              <input id="scheduleImportTerm" class="form-control" placeholder="Ex.: 2026.2">
+            </div>
+          </div>
+          <div class="form-group">
+            <label for="scheduleImportFile" class="form-label">Arquivo JSON ou CSV</label>
+            <input id="scheduleImportFile" class="form-control" type="file" accept=".json,.csv,application/json,text/csv" required>
+          </div>
+          <button type="submit" class="btn btn-primary">Validar e importar grade</button>
+        </form>
+      </section>
+    </div>
+  </main>
+  <div class="modal-backdrop" id="adminAddScheduleModal" role="dialog" aria-modal="true" aria-labelledby="addSchedModalTitle" style="display: none;">
+    <div class="modal-card modal-form-card">
+      <header class="modal-header">
+        <div class="modal-tag-row">
+          <span class="modal-badge-discipline">Painel Administrativo</span>
+          <span class="modal-badge-shift">Semestre 2026.2</span>
+        </div>
+        <h3 class="modal-title" id="addSchedModalTitle">Adicionar Horário Acadêmico</h3>
+        <button type="button" class="modal-close-btn" id="addSchedModalCloseBtn" aria-label="Fechar formulário">&times;</button>
+      </header>
+
+      <form id="addScheduleForm" class="modal-body" novalidate>
+        <input type="hidden" id="modalScheduleIdInput">
+        <p class="form-intro-desc">
+          Preencha os dados da disciplina e os horários de alocação no Campus Monteiro. O sistema detectará automaticamente conflitos de horário para docentes e turmas.
+        </p>
+
+        <div id="addSchedConflictBox" class="sched-conflict-alert" style="display: none;" role="alert">
+          <!-- Alerta de conflito injetado dinamicamente -->
+        </div>
+
+        <div class="form-group">
+          <label for="schedClassSelect" class="form-label">Turma <span class="required">*</span></label>
+          <select id="schedClassSelect" class="form-control" required>
+            <!-- Preenchido via JS com as turmas ativas -->
+          </select>
+        </div>
+
+        <div class="form-row-2">
+          <!-- Disciplina -->
+          <div class="form-group">
+            <label for="schedDisciplineSelect" class="form-label">Disciplina <span class="required">*</span></label>
+            <select id="schedDisciplineSelect" class="form-control" required></select>
+          </div>
+
+          <!-- Docente -->
+          <div class="form-group">
+            <label for="schedTeacherSelect" class="form-label">Docente / Professor(a) <span class="required">*</span></label>
+            <select id="schedTeacherSelect" class="form-control" required>
+              <!-- Preenchido via JS -->
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row-2">
+          <!-- Dia da Semana -->
+          <div class="form-group">
+            <label for="schedDaySelect" class="form-label">Dia da Semana <span class="required">*</span></label>
+            <select id="schedDaySelect" class="form-control" required>
+              <option value="1">Segunda-feira</option>
+              <option value="2">Terça-feira</option>
+              <option value="3">Quarta-feira</option>
+              <option value="4">Quinta-feira</option>
+              <option value="5">Sexta-feira</option>
+              <option value="6">Sábado</option>
+            </select>
+          </div>
+        </div>
+
+        <div class="form-row-3">
+          <!-- Turno -->
+          <div class="form-group">
+            <label for="schedShiftSelect" class="form-label">Turno <span class="required">*</span></label>
+            <select id="schedShiftSelect" class="form-control" required>
+              <option value="matutino">Matutino</option>
+              <option value="vespertino">Vespertino</option>
+              <option value="noturno">Noturno</option>
+            </select>
+          </div>
+          <div class="form-group">
+            <label for="schedRoomSelect" class="form-label">Sala (opcional)</label>
+            <select id="schedRoomSelect" class="form-control"></select>
+          </div>
+
+          <!-- Faixa de Horário -->
+          <div class="form-group">
+            <label for="schedSlotSelect" class="form-label">Faixa de Horário <span class="required">*</span></label>
+            <select id="schedSlotSelect" class="form-control" required>
+              <!-- Preenchido dinamicamente de acordo com o turno -->
+            </select>
+          </div>
+
+          <!-- Tema Visual -->
+          <div class="form-group">
+            <label for="schedThemeSelect" class="form-label">Cor do Bloco</label>
+            <select id="schedThemeSelect" class="form-control">
+              <option value="emerald">Verde Esmeralda (Web / Dev)</option>
+              <option value="cyan">Ciano (Bancos de Dados)</option>
+              <option value="indigo">Índigo (Engenharia / Gestão)</option>
+              <option value="purple">Roxo (Matemática / Exatas)</option>
+              <option value="amber">Âmbar (Estruturas / Algoritmos)</option>
+              <option value="slate">Cinza Ardósia (Sistemas / Redes)</option>
+              <option value="rose">Rosa / Coral (Resistência / Obras)</option>
+              <option value="orange">Laranja (Construção / Prática)</option>
+              <option value="blue">Azul (Cálculo / Teoria)</option>
+              <option value="teal">Verde-azulado (Tecnologias)</option>
+            </select>
+          </div>
+        </div>
+
+        <!-- Observações didáticas -->
+        <div class="form-group">
+          <label for="schedObsInput" class="form-label">Observações Metodológicas e Recursos</label>
+          <textarea id="schedObsInput" class="form-control textarea-clean" rows="2" placeholder="Ex.: Aulas práticas de laboratório com desenvolvimento de projetos..."></textarea>
+        </div>
+
+        <div class="modal-footer form-footer">
+          <button type="button" class="btn btn-secondary" id="addSchedCancelBtn" data-modal-close>Cancelar</button>
+          <button type="submit" class="btn btn-primary" id="btnSaveSchedule">
+            <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2">
+              <path d="M19 21H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2h11l5 5v11a2 2 0 0 1-2 2z"></path>
+              <polyline points="17 21 17 13 7 13 7 21"></polyline>
+              <polyline points="7 3 7 8 15 8"></polyline>
+            </svg>
+            Salvar e Inserir Horário
+          </button>
+        </div>
+      </form>
+    </div>
+  </div>
+
+  <!-- Toast de Notificações Acessível -->
+  <div id="toastNotification" class="toast-box" role="status" aria-live="polite">
+    <span class="toast-message" id="toastMessage">Filtros aplicados com sucesso.</span>
+  </div>
+
+  <!-- Rodapé Institucional do HIFPB Monteiro -->
+  <footer class="app-footer" role="contentinfo">
+    <div class="container footer-container">
+      <div class="footer-main-grid">
+        
+        <div class="footer-col brand-col">
+          <div class="footer-logo-title">
+            <strong>HIFPB Monteiro</strong>
+            <span>Horários Acadêmicos 2026.2</span>
+          </div>
+          <p class="footer-desc">
+            Sistema desenvolvido para facilitar a consulta integrada de horários de aulas, turmas, docentes e laboratórios do Campus Monteiro.
+          </p>
+          <div class="footer-disclaimer-card">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="none" stroke="currentColor" stroke-width="2">
+              <circle cx="12" cy="12" r="10"></circle>
+              <line x1="12" y1="8" x2="12" y2="12"></line>
+              <line x1="12" y1="16" x2="12.01" y2="16"></line>
+            </svg>
+            <span><strong>Aviso Acadêmico:</strong> Projeto demonstrativo para o Campus Monteiro. Dados fictícios para simulação de horários.</span>
+          </div>
+        </div>
+
+        <div class="footer-col links-col">
+          <h4 class="footer-col-title">Cursos Ofertados</h4>
+          <ul class="footer-links-list">
+            <li><button type="button" class="footer-link-btn" data-action="pickCourse" data-id="ted">TED</button></li>
+            <li><button type="button" class="footer-link-btn" data-action="pickCourse" data-id="informatica">Informática</button></li>
+            <li><button type="button" class="footer-link-btn" data-action="pickCourse" data-id="im">Instrumento Musical</button></li>
+            <li><button type="button" class="footer-link-btn" data-action="pickCourse" data-id="tce">TCE — Tecnologia em Construção de Edifícios</button></li>
+            <li><button type="button" class="footer-link-btn" data-action="pickCourse" data-id="ads">ADS — Análise e Desenvolvimento de Sistemas</button></li>
+            <li><button type="button" class="footer-link-btn" data-action="pickCourse" data-id="eng-civil">Engenharia Civil</button></li>
+          </ul>
+        </div>
+
+        <div class="footer-col campus-col">
+          <h4 class="footer-col-title">Campus Monteiro</h4>
+          <address class="campus-address">
+            <p>Instituto Federal da Paraíba — IFPB</p>
+            <p>Alto de São Vicente, Monteiro - PB, CEP 58500-000</p>
+            <p>Contato: (83) 3351-1800</p>
+            <p>Portal Oficial: <a href="https://www.ifpb.edu.br/monteiro" target="_blank" rel="noopener noreferrer">ifpb.edu.br/monteiro</a></p>
+          </address>
+        </div>
+
+      </div>
+
+      <div class="footer-bottom-bar">
+        <p>© 2026 Instituto Federal da Paraíba — Campus Monteiro. Todos os direitos acadêmicos reservados.</p>
+        <p class="credits-tag">Desenvolvido com HTML5, CSS3 & JavaScript Puro.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Scripts: Base de Dados e Lógica de Aplicação -->
+<script type="module" src="js/admin-app.js"></script>
+</body>
+</html>

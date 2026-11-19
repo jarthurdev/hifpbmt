@@ -1,0 +1,162 @@
+/**
+ * HIFPB Monteiro — Sistema de Consulta de Horários Acadêmicos
+ * Estilização Visual Completa, Animações e Responsividade
+ */
+
+.toast-box {
+  position: fixed;
+  right: 20px;
+  bottom: 20px;
+  z-index: 2000;
+  padding: 0.75rem 1.25rem;
+  border-radius: var(--radius-md);
+  background: #1e293b;
+  color: #ffffff;
+  box-shadow: var(--shadow-lg);
+  font-size: 0.88rem;
+  font-weight: 600;
+  opacity: 0;
+  pointer-events: none;
+  transform: translateY(15px);
+  transition: all var(--transition-normal);
+}
+
+.toast-box.show {
+  opacity: 1;
+  pointer-events: auto;
+  transform: translateY(0);
+}
+
+/* ==========================================================================
+   1. VARIÁVEIS DE DESIGN & TEMA INSTITUCIONAL IFPB
+   ========================================================================== */
+:root {
+  /* Identidade Visual IFPB (Verde Institucional & Acentos) */
+  --color-primary: #1b5e20;        /* Verde IFPB Principal */
+  --color-primary-dark: #0f3d13;   /* Verde Escuro */
+  --color-primary-light: #2e7d32;  /* Verde Médio */
+  --color-primary-subtle: #e8f5e9; /* Fundo Verde Suave */
+  --color-accent-red: #c62828;     /* Vermelho Institucional IFPB */
+  --color-accent-red-subtle: #ffebee;
+  --color-accent-gold: #f59e0b;
+
+  /* Cores Neutras e Superfícies */
+  --bg-body: #f4f6f8;
+  --bg-surface: #ffffff;
+  --bg-surface-elevated: #ffffff;
+  --bg-muted: #f1f5f9;
+  --bg-subtle: #f8fafc;
+
+  /* Tipografia & Contrastes */
+  --text-main: #1e293b;
+  --text-secondary: #475569;
+  --text-muted: #64748b;
+  --text-light: #94a3b8;
+  --text-on-primary: #ffffff;
+
+  /* Bordas & Divisores */
+  --border-light: #e2e8f0;
+  --border-medium: #cbd5e1;
+  --border-primary: rgba(27, 94, 32, 0.25);
+
+  /* Sombras & Profundidade */
+  --shadow-xs: 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-sm: 0 1px 3px rgba(0, 0, 0, 0.08), 0 1px 2px rgba(0, 0, 0, 0.04);
+  --shadow-md: 0 4px 6px -1px rgba(0, 0, 0, 0.08), 0 2px 4px -1px rgba(0, 0, 0, 0.04);
+  --shadow-lg: 0 10px 15px -3px rgba(0, 0, 0, 0.08), 0 4px 6px -2px rgba(0, 0, 0, 0.04);
+  --shadow-xl: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+
+  /* Raios de Arredondamento */
+  --radius-sm: 6px;
+  --radius-md: 10px;
+  --radius-lg: 14px;
+  --radius-xl: 20px;
+  --radius-full: 9999px;
+
+  /* Transições & Timings */
+  --transition-fast: 150ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-normal: 250ms cubic-bezier(0.4, 0, 0.2, 1);
+  --transition-slow: 400ms cubic-bezier(0.16, 1, 0.3, 1);
+
+  /* Fontes */
+  --font-sans: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+}
+
+/* ==========================================================================
+   2. RESET & ESTILOS GERAIS
+   ========================================================================== */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  -webkit-text-size-adjust: 100%;
+}
+
+body {
+  font-family: var(--font-sans);
+  background-color: var(--bg-body);
+  color: var(--text-main);
+  line-height: 1.55;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+img, svg {
+  display: block;
+  max-width: 100%;
+}
+
+button, input, select, textarea {
+  font: inherit;
+  color: inherit;
+}
+
+button {
+  cursor: pointer;
+  border: none;
+  background: none;
+}
+
+a {
+  color: var(--color-primary-light);
+  text-decoration: none;
+  transition: color var(--transition-fast);
+}
+
+a:hover {
+  color: var(--color-primary-dark);
+  text-decoration: underline;
+}
+
+.container {
+  width: 100%;
+  max-width: 1320px;
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+.skip-link {
+  position: absolute;
+  top: -40px;
+  left: 10px;
+  background: var(--color-primary-dark);
+  color: white;
+  padding: 6px 12px;
+  border-radius: var(--radius-sm);
+  z-index: 9999;
+  transition: top var(--transition-fast);
+}
+.skip-link:focus {
+  top: 10px;
+}

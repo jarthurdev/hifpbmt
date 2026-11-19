@@ -1,0 +1,38 @@
+[
+  {
+    "id": "ted",
+    "name": "TED",
+    "code": "TED",
+    "level": "Técnico Integrado"
+  },
+  {
+    "id": "informatica",
+    "name": "Informática",
+    "code": "INFO",
+    "level": "Técnico Integrado"
+  },
+  {
+    "id": "im",
+    "name": "Instrumento Musical",
+    "code": "IM",
+    "level": "Técnico Integrado"
+  },
+  {
+    "id": "tce",
+    "name": "Tecnologia em Construção de Edifícios",
+    "code": "TCE",
+    "level": "Tecnólogo"
+  },
+  {
+    "id": "ads",
+    "name": "Análise e Desenvolvimento de Sistemas",
+    "code": "ADS",
+    "level": "Tecnólogo"
+  },
+  {
+    "id": "eng-civil",
+    "name": "Engenharia Civil",
+    "code": "ENG-CIVIL",
+    "level": "Bacharelado"
+  }
+]

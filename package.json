@@ -1,0 +1,8 @@
+{
+  "name": "hifpb-monteiro",
+  "private": true,
+  "scripts": {
+    "start": "node scripts/start-app.js",
+    "dev": "node scripts/start-app.js"
+  }
+}

@@ -1,0 +1,1647 @@
+[
+  {
+    "id": "subject-ted-matematica-i",
+    "course_id": "ted",
+    "name": "Matemática I",
+    "code": "MAT. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-fisica-i",
+    "course_id": "ted",
+    "name": "Física I",
+    "code": "FÍS. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-historia-i",
+    "course_id": "ted",
+    "name": "História I",
+    "code": "HIST. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-sociologia-i",
+    "course_id": "ted",
+    "name": "Sociologia I",
+    "code": "SOC. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-educacao-fisica-i",
+    "course_id": "ted",
+    "name": "Educação Física I",
+    "code": "ED. FIS. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-filosofia-i",
+    "course_id": "ted",
+    "name": "Filosofia I",
+    "code": "FIL. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-informatica-basica",
+    "course_id": "ted",
+    "name": "Informática Básica",
+    "code": "INF. B.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-artes",
+    "course_id": "ted",
+    "name": "Artes",
+    "code": "ARTES",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-materiais-de-construcao-civil",
+    "course_id": "ted",
+    "name": "Materiais de Construção Civil",
+    "code": "M.C.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-espanhol-i",
+    "course_id": "ted",
+    "name": "Espanhol I",
+    "code": "ESP. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-higiene-e-seguranca-do-trabalho",
+    "course_id": "ted",
+    "name": "Higiene e Segurança do Trabalho",
+    "code": "H.S.T",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-portugues-i",
+    "course_id": "ted",
+    "name": "Português I",
+    "code": "PORT. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-geografia-i",
+    "course_id": "ted",
+    "name": "Geografia I",
+    "code": "GEO. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-desenho-tecnico",
+    "course_id": "ted",
+    "name": "Desenho Técnico",
+    "code": "D.T",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-quimica-i",
+    "course_id": "ted",
+    "name": "Química I",
+    "code": "QUÍ. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-biologia-i",
+    "course_id": "ted",
+    "name": "Biologia I",
+    "code": "BIO. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-metodologia-do-trabalho-cientifico",
+    "course_id": "ted",
+    "name": "Metodologia do Trabalho Científico",
+    "code": "MET. T.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-geografia-ii",
+    "course_id": "ted",
+    "name": "Geografia II",
+    "code": "GEO. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-portugues-ii",
+    "course_id": "ted",
+    "name": "Português II",
+    "code": "PORT. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-ingles-i",
+    "course_id": "ted",
+    "name": "Inglês I",
+    "code": "ING. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-educacao-fisica-ii",
+    "course_id": "ted",
+    "name": "Educação Física II",
+    "code": "ED. FÍS. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-topografia",
+    "course_id": "ted",
+    "name": "Topografia",
+    "code": "TOP.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-biologia-ii",
+    "course_id": "ted",
+    "name": "Biologia II",
+    "code": "BIO. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-sociologia-ii",
+    "course_id": "ted",
+    "name": "Sociologia II",
+    "code": "SOC. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-historia-ii",
+    "course_id": "ted",
+    "name": "História II",
+    "code": "HIST. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-filosofia-ii",
+    "course_id": "ted",
+    "name": "Filosofia II",
+    "code": "FIL. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-matematica-ii",
+    "course_id": "ted",
+    "name": "Matemática II",
+    "code": "MAT II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-quimica-ii",
+    "course_id": "ted",
+    "name": "Química II",
+    "code": "QUÍ. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-desenho-arquitetonico",
+    "course_id": "ted",
+    "name": "Desenho Arquitetônico",
+    "code": "D.A",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-estabilidade-e-concreto",
+    "course_id": "ted",
+    "name": "Estabilidade e Concreto",
+    "code": "E.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-planejamento-da-construcao-civil",
+    "course_id": "ted",
+    "name": "Planejamento da Construção Civil",
+    "code": "PDCC",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-fisica-ii",
+    "course_id": "ted",
+    "name": "Física II",
+    "code": "FÍS. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-mecanica-dos-solos",
+    "course_id": "ted",
+    "name": "Mecânica dos Solos",
+    "code": "MEC. SOLOS",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-instalacoes-hidrossanitarias-e-gas",
+    "course_id": "ted",
+    "name": "Instalações Hidrossanitárias e Gás",
+    "code": "I.H.G",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-matematica-iii",
+    "course_id": "ted",
+    "name": "Matemática III",
+    "code": "MAT. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-portugues-iii",
+    "course_id": "ted",
+    "name": "Português III",
+    "code": "PORT. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-fisica-iii",
+    "course_id": "ted",
+    "name": "Física III",
+    "code": "FÍS. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-instalacoes-eletricas",
+    "course_id": "ted",
+    "name": "Instalações Elétricas",
+    "code": "I.E",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-educacao-fisica-iii",
+    "course_id": "ted",
+    "name": "Educação Física III",
+    "code": "ED. FIS. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-filosofia-iii",
+    "course_id": "ted",
+    "name": "Filosofia III",
+    "code": "FIL. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-historia-iii",
+    "course_id": "ted",
+    "name": "História III",
+    "code": "HIST. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-desenho-e-calculo-de-estruturas",
+    "course_id": "ted",
+    "name": "Desenho e Cálculo de Estruturas",
+    "code": "D.C.E",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-planejamento-e-orcamento",
+    "course_id": "ted",
+    "name": "Planejamento e Orçamento",
+    "code": "PLAN. E O.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-tecnologia-da-qualidade",
+    "course_id": "ted",
+    "name": "Tecnologia da Qualidade",
+    "code": "T.Q",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-desenho-projetivo",
+    "course_id": "ted",
+    "name": "Desenho Projetivo",
+    "code": "D.P",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-sociologia-iii",
+    "course_id": "ted",
+    "name": "Sociologia III",
+    "code": "SOC. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-tecnicas-construtivas",
+    "course_id": "ted",
+    "name": "Técnicas Construtivas",
+    "code": "T.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-biologia-iii",
+    "course_id": "ted",
+    "name": "Biologia III",
+    "code": "BIO. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-geografia-iii",
+    "course_id": "ted",
+    "name": "Geografia III",
+    "code": "GEO. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-patologia-das-edificacoes",
+    "course_id": "ted",
+    "name": "Patologia das Edificações",
+    "code": "P.E",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ted-quimica-iii",
+    "course_id": "ted",
+    "name": "Química III",
+    "code": "QUI III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-portugues-i",
+    "course_id": "informatica",
+    "name": "Português I",
+    "code": "PORT. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-matematica-i",
+    "course_id": "informatica",
+    "name": "Matemática I",
+    "code": "MAT. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-sistemas-e-tecnologia-da-informacao",
+    "course_id": "informatica",
+    "name": "Sistemas e Tecnologia da Informação",
+    "code": "S.T.I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-historia-i",
+    "course_id": "informatica",
+    "name": "História I",
+    "code": "HIST. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-introducao-a-informatica",
+    "course_id": "informatica",
+    "name": "Introdução à Informática",
+    "code": "I.A",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-fisica-i",
+    "course_id": "informatica",
+    "name": "Física I",
+    "code": "FÍS. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-biologia-i",
+    "course_id": "informatica",
+    "name": "Biologia I",
+    "code": "BIO. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-sociologia-i",
+    "course_id": "informatica",
+    "name": "Sociologia I",
+    "code": "SOC. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-educacao-fisica-i",
+    "course_id": "informatica",
+    "name": "Educação Física I",
+    "code": "ED. FÍS. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-algoritmos",
+    "course_id": "informatica",
+    "name": "Algoritmos",
+    "code": "ALG.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-geografia-i",
+    "course_id": "informatica",
+    "name": "Geografia I",
+    "code": "GEO. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-filosofia-i",
+    "course_id": "informatica",
+    "name": "Filosofia I",
+    "code": "FIL. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-quimica-i",
+    "course_id": "informatica",
+    "name": "Química I",
+    "code": "QUI. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-artes",
+    "course_id": "informatica",
+    "name": "Artes",
+    "code": "ARTES",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-introducao-a-computacao-e-raciocinio-logico",
+    "course_id": "informatica",
+    "name": "Introdução à Computação e Raciocínio Lógico",
+    "code": "I.C.R.L",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-espanhol-i",
+    "course_id": "informatica",
+    "name": "Espanhol I",
+    "code": "ESP. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-geografia-ii",
+    "course_id": "informatica",
+    "name": "Geografia II",
+    "code": "GEO. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-sociologia-ii",
+    "course_id": "informatica",
+    "name": "Sociologia II",
+    "code": "SOC. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-matematica-ii",
+    "course_id": "informatica",
+    "name": "Matemática II",
+    "code": "MAT II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-biologia-ii",
+    "course_id": "informatica",
+    "name": "Biologia II",
+    "code": "BIO. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-programacao-de-aplicacoes-desktop",
+    "course_id": "informatica",
+    "name": "Programação de Aplicações Desktop",
+    "code": "P.A.D",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-historia-ii",
+    "course_id": "informatica",
+    "name": "História II",
+    "code": "HIST. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-ingles-i",
+    "course_id": "informatica",
+    "name": "Inglês I",
+    "code": "ING. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-desenvolvimento-front-end-e-banco-de-dados",
+    "course_id": "informatica",
+    "name": "Desenvolvimento Front-End e Banco de Dados",
+    "code": "DES. F-E E BD",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-educacao-fisica-ii",
+    "course_id": "informatica",
+    "name": "Educação Física II",
+    "code": "ED. FÍS. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-filosofia-ii",
+    "course_id": "informatica",
+    "name": "Filosofia II",
+    "code": "FIL. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-portugues-ii",
+    "course_id": "informatica",
+    "name": "Português II",
+    "code": "PORT. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-fisica-ii",
+    "course_id": "informatica",
+    "name": "Física II",
+    "code": "FÍS. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-metodologia-do-trabalho-cientifico",
+    "course_id": "informatica",
+    "name": "Metodologia do Trabalho Científico",
+    "code": "MET. T.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-espanhol-ii",
+    "course_id": "informatica",
+    "name": "Espanhol II",
+    "code": "ESP. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-fundamentos-de-implantacao-de-redes",
+    "course_id": "informatica",
+    "name": "Fundamentos de Implantação de Redes",
+    "code": "F.I.R",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-fundamentos-de-banco-de-dados",
+    "course_id": "informatica",
+    "name": "Fundamentos de Banco de Dados",
+    "code": "F.B.D",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-quimica-ii",
+    "course_id": "informatica",
+    "name": "Química II",
+    "code": "QUÍ. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-matematica-iii",
+    "course_id": "informatica",
+    "name": "Matemática III",
+    "code": "MAT. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-desenvolvimento-front-end",
+    "course_id": "informatica",
+    "name": "Desenvolvimento Front-End",
+    "code": "DES. F-E",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-fisica-iii",
+    "course_id": "informatica",
+    "name": "Física III",
+    "code": "FÍS. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-educacao-fisica-iii",
+    "course_id": "informatica",
+    "name": "Educação Física III",
+    "code": "ED. FIS. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-portugues-iii",
+    "course_id": "informatica",
+    "name": "Português III",
+    "code": "PORT. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-filosofia-iii",
+    "course_id": "informatica",
+    "name": "Filosofia III",
+    "code": "FIL. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-geografia-iii",
+    "course_id": "informatica",
+    "name": "Geografia III",
+    "code": "GEO III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-historia-iii",
+    "course_id": "informatica",
+    "name": "História III",
+    "code": "HIST. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-sociologia-iii",
+    "course_id": "informatica",
+    "name": "Sociologia III",
+    "code": "SOC. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-biologia-iii",
+    "course_id": "informatica",
+    "name": "Biologia III",
+    "code": "BIO. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-execucao-de-projetos-de-software",
+    "course_id": "informatica",
+    "name": "Execução de Projetos de Software",
+    "code": "E.P.S",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-empreendedorismo",
+    "course_id": "informatica",
+    "name": "Empreendedorismo",
+    "code": "EMPREND.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-desenvolvimento-back-end-web",
+    "course_id": "informatica",
+    "name": "Desenvolvimento Back-End Web",
+    "code": "DES. B-E WEB",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-quimica-iii",
+    "course_id": "informatica",
+    "name": "Química III",
+    "code": "QUI III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-ingles-ii",
+    "course_id": "informatica",
+    "name": "Inglês II",
+    "code": "ING. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-informatica-hardware-de-computadores-e-perifericos",
+    "course_id": "informatica",
+    "name": "Hardware de Computadores e Periféricos",
+    "code": "H.C. e P",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-matematica-i",
+    "course_id": "im",
+    "name": "Matemática I",
+    "code": "MAT. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-sociologia-i",
+    "course_id": "im",
+    "name": "Sociologia I",
+    "code": "SOC. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-historia-da-musica-i",
+    "course_id": "im",
+    "name": "História da Música I",
+    "code": "HIST. M. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-instrumento-i-turma-s",
+    "course_id": "im",
+    "name": "Instrumento I - Turma S",
+    "code": "I.MI - S",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-linguagem-musical-i",
+    "course_id": "im",
+    "name": "Linguagem Musical I",
+    "code": "L.M I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-filosofia-i",
+    "course_id": "im",
+    "name": "Filosofia I",
+    "code": "FIL. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-historia-i",
+    "course_id": "im",
+    "name": "História I",
+    "code": "HIST. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-ingles-i",
+    "course_id": "im",
+    "name": "Inglês I",
+    "code": "ING. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-educacao-fisica-i",
+    "course_id": "im",
+    "name": "Educação Física I",
+    "code": "ED. FIS. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-fisica-i",
+    "course_id": "im",
+    "name": "Física I",
+    "code": "FÍS. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-artes",
+    "course_id": "im",
+    "name": "Artes",
+    "code": "ARTES",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-pratica-vocal",
+    "course_id": "im",
+    "name": "Prática Vocal",
+    "code": "P.V",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-informatica-basica",
+    "course_id": "im",
+    "name": "Informática Básica",
+    "code": "INF. B.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-portugues-i",
+    "course_id": "im",
+    "name": "Português I",
+    "code": "PORT. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-instrumento-i-turma-q",
+    "course_id": "im",
+    "name": "Instrumento I - Turma Q",
+    "code": "I.M - Q",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-quimica-i",
+    "course_id": "im",
+    "name": "Química I",
+    "code": "QUÍ. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-biologia-i",
+    "course_id": "im",
+    "name": "Biologia I",
+    "code": "BIO. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-geografia-i",
+    "course_id": "im",
+    "name": "Geografia I",
+    "code": "GEO. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-historia-ii",
+    "course_id": "im",
+    "name": "História II",
+    "code": "HIST II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-portugues-ii",
+    "course_id": "im",
+    "name": "Português II",
+    "code": "PORT. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-matematica-ii",
+    "course_id": "im",
+    "name": "Matemática II",
+    "code": "MAT II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-sociologia-ii",
+    "course_id": "im",
+    "name": "Sociologia II",
+    "code": "SOC. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-instrumento-musical-ii-turma-s",
+    "course_id": "im",
+    "name": "Instrumento Musical II - Turma S",
+    "code": "I.M II - S",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-pratica-de-conjunto-i",
+    "course_id": "im",
+    "name": "Prática de Conjunto I",
+    "code": "P.C I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-educacao-fisica-ii",
+    "course_id": "im",
+    "name": "Educação Física II",
+    "code": "ED. FÍS. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-biologia-ii",
+    "course_id": "im",
+    "name": "Biologia II",
+    "code": "BIO. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-filosofia-ii",
+    "course_id": "im",
+    "name": "Filosofia II",
+    "code": "FIL. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-ingles-ii",
+    "course_id": "im",
+    "name": "Inglês II",
+    "code": "ING. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-historia-da-musica-ii",
+    "course_id": "im",
+    "name": "História da Música II",
+    "code": "HIST. M. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-geografia-ii",
+    "course_id": "im",
+    "name": "Geografia II",
+    "code": "GEO. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-empreendedorismo",
+    "course_id": "im",
+    "name": "Empreendedorismo",
+    "code": "EMPREEND.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-fisica-ii",
+    "course_id": "im",
+    "name": "Física II",
+    "code": "FÍS. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-instrumento-musical-ii-turma-q",
+    "course_id": "im",
+    "name": "Instrumento Musical II - Turma Q",
+    "code": "I.M II - Q",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-linguagem-musical-ii",
+    "course_id": "im",
+    "name": "Linguagem Musical II",
+    "code": "L.M II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-espanhol-i",
+    "course_id": "im",
+    "name": "Espanhol I",
+    "code": "ESP. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-quimica-ii",
+    "course_id": "im",
+    "name": "Química II",
+    "code": "QUÍ. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-educacao-fisica-iii",
+    "course_id": "im",
+    "name": "Educação Física III",
+    "code": "ED. FIS. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-fisica-iii",
+    "course_id": "im",
+    "name": "Física III",
+    "code": "FÍS. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-matematica-iii",
+    "course_id": "im",
+    "name": "Matemática III",
+    "code": "MAT. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-pratica-de-conjunto-ii",
+    "course_id": "im",
+    "name": "Prática de Conjunto II",
+    "code": "P.C. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-portugues-iii",
+    "course_id": "im",
+    "name": "Português III",
+    "code": "PORT. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-instrumento-musical-iii-turma-s",
+    "course_id": "im",
+    "name": "Instrumento Musical III - Turma S",
+    "code": "I.M III - S",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-filosofia-iii",
+    "course_id": "im",
+    "name": "Filosofia III",
+    "code": "FIL. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-ingles-iii",
+    "course_id": "im",
+    "name": "Inglês III",
+    "code": "ING. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-musica-e-tecnologia",
+    "course_id": "im",
+    "name": "Música e Tecnologia",
+    "code": "MeT",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-quimica-iii",
+    "course_id": "im",
+    "name": "Química III",
+    "code": "QUI. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-historia-iii",
+    "course_id": "im",
+    "name": "História III",
+    "code": "HIST. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-biologia-iii",
+    "course_id": "im",
+    "name": "Biologia III",
+    "code": "BIO. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-geografia-iii",
+    "course_id": "im",
+    "name": "Geografia III",
+    "code": "GEO. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-sociologia-iii",
+    "course_id": "im",
+    "name": "Sociologia III",
+    "code": "SOC. III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-instrumento-musical-iii-turma-q",
+    "course_id": "im",
+    "name": "Instrumento Musical III - Turma Q",
+    "code": "I.M III - Q",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-espanhol-ii",
+    "course_id": "im",
+    "name": "Espanhol II",
+    "code": "ESP. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-metodologia-do-trabalho-cientifico",
+    "course_id": "im",
+    "name": "Metodologia do Trabalho Científico",
+    "code": "MET. T.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-im-harmonia-e-improvisacao",
+    "course_id": "im",
+    "name": "Harmonia e Improvisação",
+    "code": "HeI",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-especificacao-e-orcamento-de-obras",
+    "course_id": "tce",
+    "name": "Especificação e Orçamento de Obras",
+    "code": "E.O.O",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-projeto-e-implantacao-de-canteiro-de-obras",
+    "course_id": "tce",
+    "name": "Projeto e Implantação de Canteiro de Obras",
+    "code": "P.I.C.O",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-construcoes-industrializadas",
+    "course_id": "tce",
+    "name": "Construções Industrializadas",
+    "code": "CONST. I.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-gestao-de-rh",
+    "course_id": "tce",
+    "name": "Gestão de RH",
+    "code": "GEST. DE RH",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-patologia",
+    "course_id": "tce",
+    "name": "Patologia",
+    "code": "PAT.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-empreendedorismo",
+    "course_id": "tce",
+    "name": "Empreendedorismo",
+    "code": "EMPREEND.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-libras",
+    "course_id": "tce",
+    "name": "Libras",
+    "code": "LIBRAS",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-qualidade-na-construcao-civil",
+    "course_id": "tce",
+    "name": "Qualidade na Construção Civil",
+    "code": "Q.C.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-historia-das-cidades",
+    "course_id": "tce",
+    "name": "História das Cidades",
+    "code": "HDC",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-gestao-de-residuos-da-construcao",
+    "course_id": "tce",
+    "name": "Gestão de Resíduos da Construção",
+    "code": "G.R.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-manutencao-predial",
+    "course_id": "tce",
+    "name": "Manutenção Predial",
+    "code": "MP",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-gerencia-de-suprimentos",
+    "course_id": "tce",
+    "name": "Gerência de Suprimentos",
+    "code": "G.S",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-avaliacao-pos-ocupacao",
+    "course_id": "tce",
+    "name": "Avaliação Pós-Ocupação",
+    "code": "A.P.O",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-tce-planejamento-e-controle-de-obras",
+    "course_id": "tce",
+    "name": "Planejamento e Controle de Obras",
+    "code": "P.C.O",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-laboratorio-de-algoritmos-e-logica-de-programacao",
+    "course_id": "ads",
+    "name": "Laboratório de Algoritmos e Lógica de Programação",
+    "code": "L.A.L.G",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-introducao-a-computacao",
+    "course_id": "ads",
+    "name": "Introdução à Computação",
+    "code": "I.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-algoritmos-e-logica-de-programacao",
+    "course_id": "ads",
+    "name": "Algoritmos e Lógica de Programação",
+    "code": "ALP",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-matematica-basica",
+    "course_id": "ads",
+    "name": "Matemática Básica",
+    "code": "MAT. BÁSICA",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-portugues-instrumental-i",
+    "course_id": "ads",
+    "name": "Português Instrumental I",
+    "code": "PORT. INST. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-ingles-instrumental-i",
+    "course_id": "ads",
+    "name": "Inglês Instrumental I",
+    "code": "ING. INST. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-programacao-orientada-a-objetos",
+    "course_id": "ads",
+    "name": "Programação Orientada a Objetos",
+    "code": "P.O.O",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-matematica-aplicada-a-computacao",
+    "course_id": "ads",
+    "name": "Matemática Aplicada à Computação",
+    "code": "M.A.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-portugues-instrumental-ii",
+    "course_id": "ads",
+    "name": "Português Instrumental II",
+    "code": "PORT. INST. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-ingles-instrumental-ii",
+    "course_id": "ads",
+    "name": "Inglês Instrumental II",
+    "code": "ING. INST. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-relacoes-humanas-no-trabalho",
+    "course_id": "ads",
+    "name": "Relações Humanas no Trabalho",
+    "code": "R.H.T",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-metodologia-da-pesquisa-cientifica",
+    "course_id": "ads",
+    "name": "Metodologia da Pesquisa Científica",
+    "code": "MDPC",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-introducao-a-redes-de-computadores",
+    "course_id": "ads",
+    "name": "Introdução a Redes de Computadores",
+    "code": "I.R.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-banco-de-dados-i",
+    "course_id": "ads",
+    "name": "Banco de Dados I",
+    "code": "B.D 1",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-estrutura-de-dados-e-algoritmos",
+    "course_id": "ads",
+    "name": "Estrutura de Dados e Algoritmos",
+    "code": "E.D.A",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-sistemas-operacionais",
+    "course_id": "ads",
+    "name": "Sistemas Operacionais",
+    "code": "S.O",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-processos-de-software",
+    "course_id": "ads",
+    "name": "Processos de Software",
+    "code": "PDS",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-banco-de-dados-ii",
+    "course_id": "ads",
+    "name": "Banco de Dados II",
+    "code": "B.D 2",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-topicos-avancados-de-programacao",
+    "course_id": "ads",
+    "name": "Tópicos Avançados de Programação",
+    "code": "T.A.P",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-analise-e-projeto-de-sistemas",
+    "course_id": "ads",
+    "name": "Análise e Projeto de Sistemas",
+    "code": "A.P.S",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-projeto-i",
+    "course_id": "ads",
+    "name": "Projeto I",
+    "code": "P.J 1",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-sistemas-e-tecnologia-da-informacao",
+    "course_id": "ads",
+    "name": "Sistemas e Tecnologia da Informação",
+    "code": "S.T.I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-seguranca-da-informacao",
+    "course_id": "ads",
+    "name": "Segurança da Informação",
+    "code": "S.I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-desenvolvimento-de-aplicacoes-corporativas",
+    "course_id": "ads",
+    "name": "Desenvolvimento de Aplicações Corporativas",
+    "code": "D.A.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-metodologia-do-trabalho-cientifico",
+    "course_id": "ads",
+    "name": "Metodologia do Trabalho Científico",
+    "code": "MET. T.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-projeto-ii",
+    "course_id": "ads",
+    "name": "Projeto II",
+    "code": "PJ2",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-sistemas-distribuidos",
+    "course_id": "ads",
+    "name": "Sistemas Distribuídos",
+    "code": "S.D",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-programacao-para-dispositivos-moveis",
+    "course_id": "ads",
+    "name": "Programação para Dispositivos Móveis",
+    "code": "P.D.M",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-interacao-humano-computador",
+    "course_id": "ads",
+    "name": "Interação Humano-Computador",
+    "code": "I.H.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-empreendedorismo",
+    "course_id": "ads",
+    "name": "Empreendedorismo",
+    "code": "EMPREEND.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-ads-libras",
+    "course_id": "ads",
+    "name": "Libras",
+    "code": "LIBRAS",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-calculo-diferencial-e-integral-i",
+    "course_id": "eng-civil",
+    "name": "Cálculo Diferencial e Integral I",
+    "code": "CDI I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-fundamentos-da-metodologia-cientifica",
+    "course_id": "eng-civil",
+    "name": "Fundamentos da Metodologia Científica",
+    "code": "FDMC",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-introducao-a-engenharia-civil",
+    "course_id": "eng-civil",
+    "name": "Introdução à Engenharia Civil",
+    "code": "IEC",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-introducao-a-computacao",
+    "course_id": "eng-civil",
+    "name": "Introdução à Computação",
+    "code": "I.C",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-quimica-experimental-i",
+    "course_id": "eng-civil",
+    "name": "Química Experimental I",
+    "code": "QEI I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-relacoes-humanas-no-trabalho",
+    "course_id": "eng-civil",
+    "name": "Relações Humanas no Trabalho",
+    "code": "R.H.T",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-algebra-vetorial",
+    "course_id": "eng-civil",
+    "name": "Álgebra Vetorial",
+    "code": "ALG. VET.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-fisica-geral-i",
+    "course_id": "eng-civil",
+    "name": "Física Geral I",
+    "code": "FIS. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-algebra-linear",
+    "course_id": "eng-civil",
+    "name": "Álgebra Linear",
+    "code": "ALGEBRA LINEAR",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-desenho-tecnico",
+    "course_id": "eng-civil",
+    "name": "Desenho Técnico",
+    "code": "D.T",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-geologia",
+    "course_id": "eng-civil",
+    "name": "Geologia",
+    "code": "GEOLOGIA",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-calculo-diferencial-e-integral-ii",
+    "course_id": "eng-civil",
+    "name": "Cálculo Diferencial e Integral II",
+    "code": "CDI II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-construcao-civil-e-meio-ambiente",
+    "course_id": "eng-civil",
+    "name": "Construção Civil e Meio Ambiente",
+    "code": "C.C.M.B",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-fisica-geral-ii",
+    "course_id": "eng-civil",
+    "name": "Física Geral II",
+    "code": "FIS. II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-calculo-iii",
+    "course_id": "eng-civil",
+    "name": "Cálculo III",
+    "code": "CAL III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-desenho-bim",
+    "course_id": "eng-civil",
+    "name": "Desenho BIM",
+    "code": "DB BIM",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-economia-da-engenharia",
+    "course_id": "eng-civil",
+    "name": "Economia da Engenharia",
+    "code": "ECO ENG",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-matematica-financeira",
+    "course_id": "eng-civil",
+    "name": "Matemática Financeira",
+    "code": "MAT FIN",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-probabilidade-e-estatistica",
+    "course_id": "eng-civil",
+    "name": "Probabilidade e Estatística",
+    "code": "PROB E EST",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-mecanica-geral",
+    "course_id": "eng-civil",
+    "name": "Mecânica Geral",
+    "code": "MEC GERAL",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-calculo-iv",
+    "course_id": "eng-civil",
+    "name": "Cálculo IV",
+    "code": "CALC IV",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-fisica-geral-iii",
+    "course_id": "eng-civil",
+    "name": "Física Geral III",
+    "code": "FIS GER III",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-fisica-experimental",
+    "course_id": "eng-civil",
+    "name": "Física Experimental",
+    "code": "FIS. EXP.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-topografia-i",
+    "course_id": "eng-civil",
+    "name": "Topografia I",
+    "code": "TI",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-materiais-de-construcao-i",
+    "course_id": "eng-civil",
+    "name": "Materiais de Construção I",
+    "code": "MAT. CONST. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-projeto-arquitetonico-i",
+    "course_id": "eng-civil",
+    "name": "Projeto Arquitetônico I",
+    "code": "PROJ. ARQ. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-calculo-numerico",
+    "course_id": "eng-civil",
+    "name": "Cálculo Numérico",
+    "code": "CALC. NUM.",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-eletrotecnica",
+    "course_id": "eng-civil",
+    "name": "Eletrotécnica",
+    "code": "ELETRO",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-topografia-ii",
+    "course_id": "eng-civil",
+    "name": "Topografia II",
+    "code": "TII",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-seguranca-do-trabalho",
+    "course_id": "eng-civil",
+    "name": "Segurança do Trabalho",
+    "code": "ST",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-projeto-arquitetonico-ii",
+    "course_id": "eng-civil",
+    "name": "Projeto Arquitetônico II",
+    "code": "PROJ ARQ II",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-materiais-de-construcao-ii",
+    "course_id": "eng-civil",
+    "name": "Materiais de Construção II",
+    "code": "MDCII",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-resistencia-dos-materiais-i",
+    "course_id": "eng-civil",
+    "name": "Resistência dos Materiais I",
+    "code": "RI",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-introducao-a-administracao",
+    "course_id": "eng-civil",
+    "name": "Introdução à Administração",
+    "code": "IADM",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-portugues-instrumental-i",
+    "course_id": "eng-civil",
+    "name": "Português Instrumental I",
+    "code": "PORT. INST. I",
+    "workload_hours": null
+  },
+  {
+    "id": "subject-eng-civil-libras",
+    "course_id": "eng-civil",
+    "name": "Libras",
+    "code": "LIBRAS",
+    "workload_hours": null
+  }
+]

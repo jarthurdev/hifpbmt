@@ -1,0 +1,142 @@
+[
+  {
+    "id": "time-matutino-0700-0750",
+    "shift": "matutino",
+    "order_index": 0,
+    "start_time": "07:00",
+    "end_time": "07:50"
+  },
+  {
+    "id": "time-matutino-0700-0840",
+    "shift": "matutino",
+    "order_index": 1,
+    "start_time": "07:00",
+    "end_time": "08:40"
+  },
+  {
+    "id": "time-matutino-0750-0840",
+    "shift": "matutino",
+    "order_index": 2,
+    "start_time": "07:50",
+    "end_time": "08:40"
+  },
+  {
+    "id": "time-matutino-0900-0950",
+    "shift": "matutino",
+    "order_index": 3,
+    "start_time": "09:00",
+    "end_time": "09:50"
+  },
+  {
+    "id": "time-matutino-0900-1040",
+    "shift": "matutino",
+    "order_index": 4,
+    "start_time": "09:00",
+    "end_time": "10:40"
+  },
+  {
+    "id": "time-matutino-0950-1040",
+    "shift": "matutino",
+    "order_index": 5,
+    "start_time": "09:50",
+    "end_time": "10:40"
+  },
+  {
+    "id": "time-matutino-1040-1130",
+    "shift": "matutino",
+    "order_index": 6,
+    "start_time": "10:40",
+    "end_time": "11:30"
+  },
+  {
+    "id": "time-matutino-1040-1220",
+    "shift": "matutino",
+    "order_index": 7,
+    "start_time": "10:40",
+    "end_time": "12:20"
+  },
+  {
+    "id": "time-matutino-1130-1220",
+    "shift": "matutino",
+    "order_index": 8,
+    "start_time": "11:30",
+    "end_time": "12:20"
+  },
+  {
+    "id": "time-vespertino-1300-1350",
+    "shift": "vespertino",
+    "order_index": 0,
+    "start_time": "13:00",
+    "end_time": "13:50"
+  },
+  {
+    "id": "time-vespertino-1300-1440",
+    "shift": "vespertino",
+    "order_index": 1,
+    "start_time": "13:00",
+    "end_time": "14:40"
+  },
+  {
+    "id": "time-vespertino-1350-1440",
+    "shift": "vespertino",
+    "order_index": 2,
+    "start_time": "13:50",
+    "end_time": "14:40"
+  },
+  {
+    "id": "time-vespertino-1440-1530",
+    "shift": "vespertino",
+    "order_index": 3,
+    "start_time": "14:40",
+    "end_time": "15:30"
+  },
+  {
+    "id": "time-vespertino-1440-1630",
+    "shift": "vespertino",
+    "order_index": 4,
+    "start_time": "14:40",
+    "end_time": "16:30"
+  },
+  {
+    "id": "time-vespertino-1540-1720",
+    "shift": "vespertino",
+    "order_index": 5,
+    "start_time": "15:40",
+    "end_time": "17:20"
+  },
+  {
+    "id": "time-vespertino-1630-1810",
+    "shift": "vespertino",
+    "order_index": 6,
+    "start_time": "16:30",
+    "end_time": "18:10"
+  },
+  {
+    "id": "time-noturno-1830-2010",
+    "shift": "noturno",
+    "order_index": 0,
+    "start_time": "18:30",
+    "end_time": "20:10"
+  },
+  {
+    "id": "time-noturno-2030-2120",
+    "shift": "noturno",
+    "order_index": 1,
+    "start_time": "20:30",
+    "end_time": "21:20"
+  },
+  {
+    "id": "time-noturno-2030-2210",
+    "shift": "noturno",
+    "order_index": 2,
+    "start_time": "20:30",
+    "end_time": "22:10"
+  },
+  {
+    "id": "time-noturno-2120-2210",
+    "shift": "noturno",
+    "order_index": 3,
+    "start_time": "21:20",
+    "end_time": "22:10"
+  }
+]
